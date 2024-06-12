@@ -4,10 +4,15 @@ Source: Common algorithmic problem
 
 Description:
 Given a rod of length n and an array of prices that contains prices of all pieces of size smaller than n. Determine the maximum value obtainable by cutting up the rod and selling the pieces.
+Use Case at Google: Resource Optimization
+Cloud Resource Allocation:
 
-Google Relevance:
-This problem can be linked to Google's optimization problems in resource allocation and revenue maximization strategies.
+Challenge: Efficiently allocate cloud resources to maximize revenue and minimize wastage.
+Application: Similar to cutting a rod to maximize profit, this algorithm can help optimize the allocation of cloud resources of different sizes to various tasks, ensuring maximum utilization.
+Advertisement Revenue Maximization:
 
+Challenge: Determine the optimal pricing and placement of ads to maximize revenue.
+Application: Just as the algorithm maximizes profit from rod segments, it can be adapted to optimize the distribution and pricing of ads.
 Solution:
 */
 
