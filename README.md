@@ -53,11 +53,17 @@ The global algorithmic market is growing rapidly, with significant investments i
 
 ## Codes
 
-### 1. Rod Cutting Problem
-**Challenge**: Maximize profit from cutting a rod into smaller segments.  
-**Google Relevance**: Useful for optimizing resource allocation in cloud services and maximizing advertisement revenue.  
-**Algorithm**: Dynamic Programming.
 
-**Code**: [Rod Cutting Problem](DynamicProgramming/rod_cutting_problem.cpp)
+#### Performance Analysis Section
 
+## Performance Analysis
 
+| Algorithm   | Time Complexity | Space Complexity | Limitations                                  |
+|-------------|-----------------|------------------|----------------------------------------------|
+| Rod Cutting | O(n^2)          | O(n)             | Performance degrades with very large inputs  |
+
+### Explanation:
+The Rod Cutting problem uses dynamic programming to find the maximum obtainable value by cutting up the rod and selling the pieces. This method is efficient in optimizing resource allocation and can be adapted for various optimization problems at Google, such as cloud resource allocation and ad revenue maximization.
+
+### Limitations:
+While the dynamic programming solution is efficient, its performance can degrade with very large inputs due to its quadratic time complexity.
