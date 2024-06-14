@@ -53,31 +53,11 @@ The global algorithmic market is growing rapidly, with significant investments i
 
 ## Codes
 
-### [Rod Cutting Problem](DynamicProgramming/rod_cutting_problem.cpp)
-- **Description**: Maximize profit from cutting a rod.
-- **Google Relevance**: Resource allocation and revenue maximization.
+### 1. Rod Cutting Problem
+**Challenge**: Maximize profit from cutting a rod into smaller segments.  
+**Google Relevance**: Useful for optimizing resource allocation in cloud services and maximizing advertisement revenue.  
+**Algorithm**: Dynamic Programming.
 
-```cpp
-#include <iostream>
-#include <vector>
-#include <algorithm>
-using namespace std;
+**Code**: [Rod Cutting Problem](DynamicProgramming/rod_cutting_problem.cpp)
 
-int rodCutting(vector<int>& prices, int n) {
-    vector<int> dp(n + 1, 0);
-    for (int i = 1; i <= n; ++i) {
-        int max_val = INT_MIN;
-        for (int j = 0; j < i; ++j) {
-            max_val = max(max_val, prices[j] + dp[i - j - 1]);
-        }
-        dp[i] = max_val;
-    }
-    return dp[n];
-}
 
-int main() {
-    vector<int> prices = {1, 5, 8, 9, 10, 17, 17, 20};
-    int n = 8;
-    cout << "Maximum obtainable value is " << rodCutting(prices, n) << endl;
-    return 0;
-}
