@@ -62,7 +62,15 @@ The global algorithmic market is growing rapidly, with significant investments i
 **Algorithm**: Skip List.
 
 **Code**: [Skip List](SkipList/skip_list.cpp)
+### 4. Stable Marriage Problem
+**Challenge**: Match pairs (e.g., job candidates to roles) in a stable manner.  
+**Google Relevance**: Useful for job candidate matching systems, user-content pairing, and other matching algorithms.  
+**Algorithm**: Stable Marriage Problem.
 
+**Code**: [Stable Marriage Problem](StableMarriageProblem/stable_marriage.cpp)
+
+
+#### Performance Analysis Section
 
 ## Performance Analysis
 
@@ -71,6 +79,7 @@ The global algorithmic market is growing rapidly, with significant investments i
 | Rod Cutting             | O(n^2)           | O(n)             | Performance degrades with very large input sizes    |
 | Johnson-Trotter         | O(n!)            | O(n)             | Inefficient for very large sets due to factorial time complexity |
 | Skip List               | O(log n) average, O(n) worst case | O(n log n)   | Performance can degrade in the worst case without proper balancing |
+| Stable Marriage         | O(n^2)           | O(n)             | May not be efficient for very large sets            |
 
 
 ## Codes
@@ -100,4 +109,9 @@ The Skip List algorithm provides an efficient way to perform search operations w
 
 ### Limitations:
 In the worst case, the time complexity can degrade to O(n), especially if the list is not properly balanced.
+### Explanation:
+The Stable Marriage Problem algorithm finds a stable matching between two sets of elements, such as job candidates and job positions. It ensures that there are no two elements which would prefer each other over their current matches. Google can use this algorithm for matching job candidates to roles, optimizing user-content pairings, and other applications where stable matches are essential.
+
+### Limitations:
+The algorithm has a time complexity of O(n^2), which may not be efficient for very large sets.
 
