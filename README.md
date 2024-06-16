@@ -56,6 +56,21 @@ The global algorithmic market is growing rapidly, with significant investments i
 **Algorithm**: Johnson-Trotter Algorithm.
 
 **Code**: [Johnson-Trotter Algorithm](SearchAlgorithms/johnson_trotter.cpp)
+### 3. Skip List
+**Challenge**: Implement an efficient search structure.  
+**Google Relevance**: Useful for indexing and search operations in databases and search engines.  
+**Algorithm**: Skip List.
+
+**Code**: [Skip List](SkipList/skip_list.cpp)
+
+
+## Performance Analysis
+
+| Algorithm               | Time Complexity  | Space Complexity | Limitations                                         |
+|-------------------------|------------------|------------------|-----------------------------------------------------|
+| Rod Cutting             | O(n^2)           | O(n)             | Performance degrades with very large input sizes    |
+| Johnson-Trotter         | O(n!)            | O(n)             | Inefficient for very large sets due to factorial time complexity |
+| Skip List               | O(log n) average, O(n) worst case | O(n log n)   | Performance can degrade in the worst case without proper balancing |
 
 
 ## Codes
@@ -67,7 +82,7 @@ The global algorithmic market is growing rapidly, with significant investments i
 |-------------------------|------------------|------------------|-----------------------------------------------------|
 | Rod Cutting             | O(n^2)           | O(n)             | Performance degrades with very large input sizes    |
 | Johnson-Trotter         | O(n!)            | O(n)             | Inefficient for very large sets due to factorial time complexity |
-
+| Skip List               | O(log n) average, O(n) worst case | O(n log n)   | Performance can degrade in the worst case without proper balancing |
 
 
 ### Explanation:
@@ -80,4 +95,9 @@ The Johnson-Trotter algorithm generates all permutations of a set, which can be 
 
 ### Limitations:
 The algorithm has a factorial time complexity (O(n!)), making it impractical for very large sets.
+### Explanation:
+The Skip List algorithm provides an efficient way to perform search operations with an average time complexity of O(log n). It is useful for indexing and search operations in databases and search engines, such as those used by Google. The Skip List can handle a large number of elements while maintaining quick search times, making it suitable for dynamic data where insertions and deletions are frequent.
 
+### Limitations:
+In the worst case, the time complexity can degrade to O(n), especially if the list is not properly balanced.
+Add explanation and performance analysis for Skip List Algorithm
