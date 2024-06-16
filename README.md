@@ -50,20 +50,34 @@ The global algorithmic market is growing rapidly, with significant investments i
 **Market Benefits**: Improved user engagement, personalized experience.  
 **Suitable Algorithms**: Collaborative Filtering, Matrix Factorization.  
 **Design Techniques**: Use of recommendation systems.
+### 2. Johnson-Trotter Algorithm
+**Challenge**: Generate all permutations of a set.  
+**Google Relevance**: Useful for testing systems, shuffling search results, and combinatorial optimizations.  
+**Algorithm**: Johnson-Trotter Algorithm.
+
+**Code**: [Johnson-Trotter Algorithm](SearchAlgorithms/johnson_trotter.cpp)
+
 
 ## Codes
 
-
 #### Performance Analysis Section
-
 ## Performance Analysis
 
-| Algorithm   | Time Complexity | Space Complexity | Limitations                                  |
-|-------------|-----------------|------------------|----------------------------------------------|
-| Rod Cutting | O(n^2)          | O(n)             | Performance degrades with very large inputs  |
+| Algorithm               | Time Complexity  | Space Complexity | Limitations                                         |
+|-------------------------|------------------|------------------|-----------------------------------------------------|
+| Rod Cutting             | O(n^2)           | O(n)             | Performance degrades with very large input sizes    |
+| Johnson-Trotter         | O(n!)            | O(n)             | Inefficient for very large sets due to factorial time complexity |
+
+
 
 ### Explanation:
 The Rod Cutting problem uses dynamic programming to find the maximum obtainable value by cutting up the rod and selling the pieces. This method is efficient in optimizing resource allocation and can be adapted for various optimization problems at Google, such as cloud resource allocation and ad revenue maximization.
 
 ### Limitations:
 While the dynamic programming solution is efficient, its performance can degrade with very large inputs due to its quadratic time complexity.
+### Explanation:
+The Johnson-Trotter algorithm generates all permutations of a set, which can be useful for various tasks at Google. For instance, it can be used in testing systems to ensure robustness by testing all possible configurations, shuffling search results to provide varied outcomes, and solving combinatorial optimization problems.
+
+### Limitations:
+The algorithm has a factorial time complexity (O(n!)), making it impractical for very large sets.
+
