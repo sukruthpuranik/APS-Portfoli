@@ -69,8 +69,6 @@ The global algorithmic market is growing rapidly, with significant investments i
 
 **Code**: [Stable Marriage Problem](StableMarriageProblem/stable_marriage.cpp)
 
-## Business Cases
-
 ### 4. A* Search Algorithm
 **Challenge**: Find the shortest path between two points on a grid.  
 **Google Relevance**: Crucial for pathfinding in Google Maps and optimizing search algorithms.  
@@ -78,15 +76,12 @@ The global algorithmic market is growing rapidly, with significant investments i
 
 **Code**: [A* Search Algorithm](AStarSearch/a_star_search.cpp)
 
-## Business Cases
-
 ### 5. KD Tree for Nearest Neighbor Search
 **Challenge**: Efficiently find the nearest neighbor to a point in a multi-dimensional space.  
 **Google Relevance**: Crucial for geographical data handling and search query optimization.  
 **Algorithm**: KD Tree.
 
 **Code**: [KD Tree Algorithm](DataStructures/kd_tree.cpp)
-## Business Cases
 
 ### 6. Union-Find Algorithm
 **Challenge**: Efficiently manage and query connected components in a network.  
@@ -94,8 +89,6 @@ The global algorithmic market is growing rapidly, with significant investments i
 **Algorithm**: Union-Find with Path Compression and Union by Rank.
 
 **Code**: [Union-Find Algorithm](DataStructures/union_find.cpp)
-
-## Business Cases
 
 ### 7. Trie Data Structure
 **Challenge**: Efficiently store and retrieve keys in a dataset of strings.  
