@@ -95,16 +95,32 @@ The global algorithmic market is growing rapidly, with significant investments i
 
 **Code**: [Union-Find Algorithm](DataStructures/union_find.cpp)
 
+## Business Cases
+
+### 7. Trie Data Structure
+**Challenge**: Efficiently store and retrieve keys in a dataset of strings.  
+**Google Relevance**: Essential for autocomplete features, search engine indexing, and IP routing.  
+**Algorithm**: Trie Data Structure.
+
+**Code**: [Trie Data Structure Algorithm](DataStructures/trie.cpp)
+
 ## Performance Analysis
 
-| Algorithm                  | Time Complexity  | Space Complexity | Limitations                                         |
-|----------------------------|------------------|------------------|-----------------------------------------------------|
-| Repeated Substring Pattern | O(n^2)           | O(n)             | Performance may degrade for very large strings      |
-| Rod Cutting                | O(n^2)           | O(n)             | Inefficient for very large input sizes              |
-| Longest Common Substring   | O(m*n)           | O(m*n)           | Requires significant space for large input sizes    |
-| A* Search                  | O(b^d)           | O(b^d)           | Performance depends on heuristic accuracy           |
+| Algorithm                  | Time Complexity       | Space Complexity | Limitations                                         |
+|----------------------------|-----------------------|------------------|-----------------------------------------------------|
+| Repeated Substring Pattern | O(n^2)                | O(n)             | Performance may degrade for very large strings      |
+| Rod Cutting                | O(n^2)                | O(n)             | Inefficient for very large input sizes              |
+| Longest Common Substring   | O(m*n)                | O(m*n)           | Requires significant space for large input sizes    |
+| A* Search                  | O(b^d)                | O(b^d)           | Performance depends on heuristic accuracy           |
 | KD Tree                    | O(n log n) build, O(log n) search | O(n) | High-dimensional data can degrade performance        |
-| Union-Find                 | O(α(n)) per operation | O(n) | α(n) is the Inverse Ackermann function, very slow-growing|
+| Union-Find                 | O(α(n)) per operation | O(n)             | α(n) is the Inverse Ackermann function, very slow-growing|
+| Trie                       | O(m) for insert/search| O(n*m)           | High space complexity due to storing all characters |
+
+### Explanation:
+The Trie data structure is used to efficiently store and retrieve keys in a dataset of strings. This is crucial for Google's autocomplete features, search engine indexing, and IP routing.
+
+### Limitations:
+While Tries offer efficient search operations, they have a high space complexity due to storing each character of every word.
 
 ### Explanation:
 The Union-Find algorithm efficiently manages and queries connected components in a network. This is crucial for Google's services like managing social networks and ensuring connectivity in distributed systems.
