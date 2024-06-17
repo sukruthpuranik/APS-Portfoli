@@ -78,6 +78,15 @@ The global algorithmic market is growing rapidly, with significant investments i
 
 **Code**: [A* Search Algorithm](AStarSearch/a_star_search.cpp)
 
+## Business Cases
+
+### 5. KD Tree for Nearest Neighbor Search
+**Challenge**: Efficiently find the nearest neighbor to a point in a multi-dimensional space.  
+**Google Relevance**: Crucial for geographical data handling and search query optimization.  
+**Algorithm**: KD Tree.
+
+**Code**: [KD Tree Algorithm](DataStructures/kd_tree.cpp)
+
 ## Performance Analysis
 
 | Algorithm                  | Time Complexity  | Space Complexity | Limitations                                         |
@@ -86,6 +95,13 @@ The global algorithmic market is growing rapidly, with significant investments i
 | Rod Cutting                | O(n^2)           | O(n)             | Inefficient for very large input sizes              |
 | Longest Common Substring   | O(m*n)           | O(m*n)           | Requires significant space for large input sizes    |
 | A* Search                  | O(b^d)           | O(b^d)           | Performance depends on heuristic accuracy           |
+| KD Tree                    | O(n log n) build, O(log n) search | O(n) | High-dimensional data can degrade performance        |
+
+### Explanation:
+The KD Tree algorithm is used for nearest neighbor searches in multi-dimensional spaces. This is useful for Google’s services like Maps and search query optimizations.
+
+### Limitations:
+Performance can degrade with high-dimensional data, as the algorithm may need to explore many nodes.
 
 ### Explanation:
 The A* Search algorithm is used to find the shortest path between two points. It is highly relevant for Google's services like Google Maps for efficient route planning and navigation.
