@@ -69,30 +69,29 @@ The global algorithmic market is growing rapidly, with significant investments i
 
 **Code**: [Stable Marriage Problem](StableMarriageProblem/stable_marriage.cpp)
 
+## Business Cases
 
-#### Performance Analysis Section
+### 4. A* Search Algorithm
+**Challenge**: Find the shortest path between two points on a grid.  
+**Google Relevance**: Crucial for pathfinding in Google Maps and optimizing search algorithms.  
+**Algorithm**: A* Search.
+
+**Code**: [A* Search Algorithm](AStarSearch/a_star_search.cpp)
 
 ## Performance Analysis
 
-| Algorithm               | Time Complexity  | Space Complexity | Limitations                                         |
-|-------------------------|------------------|------------------|-----------------------------------------------------|
-| Rod Cutting             | O(n^2)           | O(n)             | Performance degrades with very large input sizes    |
-| Johnson-Trotter         | O(n!)            | O(n)             | Inefficient for very large sets due to factorial time complexity |
-| Skip List               | O(log n) average, O(n) worst case | O(n log n)   | Performance can degrade in the worst case without proper balancing |
-| Stable Marriage         | O(n^2)           | O(n)             | May not be efficient for very large sets            |
+| Algorithm                  | Time Complexity  | Space Complexity | Limitations                                         |
+|----------------------------|------------------|------------------|-----------------------------------------------------|
+| Repeated Substring Pattern | O(n^2)           | O(n)             | Performance may degrade for very large strings      |
+| Rod Cutting                | O(n^2)           | O(n)             | Inefficient for very large input sizes              |
+| Longest Common Substring   | O(m*n)           | O(m*n)           | Requires significant space for large input sizes    |
+| A* Search                  | O(b^d)           | O(b^d)           | Performance depends on heuristic accuracy           |
 
+### Explanation:
+The A* Search algorithm is used to find the shortest path between two points. It is highly relevant for Google's services like Google Maps for efficient route planning and navigation.
 
-## Codes
-
-#### Performance Analysis Section
-## Performance Analysis
-
-| Algorithm               | Time Complexity  | Space Complexity | Limitations                                         |
-|-------------------------|------------------|------------------|-----------------------------------------------------|
-| Rod Cutting             | O(n^2)           | O(n)             | Performance degrades with very large input sizes    |
-| Johnson-Trotter         | O(n!)            | O(n)             | Inefficient for very large sets due to factorial time complexity |
-| Skip List               | O(log n) average, O(n) worst case | O(n log n)   | Performance can degrade in the worst case without proper balancing |
-
+### Limitations:
+The algorithm's performance heavily depends on the accuracy of the heuristic function. In the worst case, its time and space complexity can be exponential (O(b^d)).
 
 ### Explanation:
 The Rod Cutting problem uses dynamic programming to find the maximum obtainable value by cutting up the rod and selling the pieces. This method is efficient in optimizing resource allocation and can be adapted for various optimization problems at Google, such as cloud resource allocation and ad revenue maximization.
