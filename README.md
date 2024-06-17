@@ -86,6 +86,14 @@ The global algorithmic market is growing rapidly, with significant investments i
 **Algorithm**: KD Tree.
 
 **Code**: [KD Tree Algorithm](DataStructures/kd_tree.cpp)
+## Business Cases
+
+### 6. Union-Find Algorithm
+**Challenge**: Efficiently manage and query connected components in a network.  
+**Google Relevance**: Essential for managing large-scale networks like social networks and connectivity in distributed systems.  
+**Algorithm**: Union-Find with Path Compression and Union by Rank.
+
+**Code**: [Union-Find Algorithm](DataStructures/union_find.cpp)
 
 ## Performance Analysis
 
@@ -96,6 +104,13 @@ The global algorithmic market is growing rapidly, with significant investments i
 | Longest Common Substring   | O(m*n)           | O(m*n)           | Requires significant space for large input sizes    |
 | A* Search                  | O(b^d)           | O(b^d)           | Performance depends on heuristic accuracy           |
 | KD Tree                    | O(n log n) build, O(log n) search | O(n) | High-dimensional data can degrade performance        |
+| Union-Find                 | O(α(n)) per operation | O(n) | α(n) is the Inverse Ackermann function, very slow-growing|
+
+### Explanation:
+The Union-Find algorithm efficiently manages and queries connected components in a network. This is crucial for Google's services like managing social networks and ensuring connectivity in distributed systems.
+
+### Limitations:
+The algorithm has nearly constant time complexity per operation, but the Inverse Ackermann function, though very slow-growing, might still impact performance slightly in extreme cases.
 
 ### Explanation:
 The KD Tree algorithm is used for nearest neighbor searches in multi-dimensional spaces. This is useful for Google’s services like Maps and search query optimizations.
