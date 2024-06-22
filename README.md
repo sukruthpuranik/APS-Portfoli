@@ -104,6 +104,14 @@ The global algorithmic market is growing rapidly, with significant investments i
 **Algorithm**: Fermat's Little Theorem.
 
 **Code**: [Fermat's Little Theorem Algorithm](Algorithms/fermats_little_theorem.cpp)
+## Business Cases
+
+### 12. Segment Tree
+**Challenge**: Efficiently handle range query problems such as sum, minimum, or maximum over a segment of an array.  
+**Google Relevance**: Used in various applications where efficient data retrieval is necessary, such as Google Search and database systems.  
+**Algorithm**: Segment Tree.
+
+**Code**: [Segment Tree Algorithm](DataStructures/segment_tree.cpp)
 
 ## Performance Analysis
 
@@ -118,6 +126,15 @@ The global algorithmic market is growing rapidly, with significant investments i
 | Trie                       | O(m) for insert/search| O(n*m)           | High space complexity due to storing all characters |
 | Segment Tree               | O(log n) for query/update | O(n)           | Complexity increases with more complex operations   |
 | Fermat's Little Theorem    | O(log p)              | O(1)             | Only applicable if p is a prime number              |
+| Binary Search Tree         | O(log n) average, O(n) worst-case | O(n) | Unbalanced trees can degrade performance            |
+| A* Search                  | O(b^d)                | O(b^d)           | Performance heavily depends on the heuristic used   |
+| Segment Tree               | O(log n) for query/update | O(n)           | Complexity increases with more complex operations   |
+
+### Explanation:
+Segment Trees are used for efficiently handling range query problems, essential for various data retrieval tasks in Google services such as search engines and databases.
+
+### Limitations:
+While Segment Trees provide efficient query and update operations, their complexity can increase with more complex operations and they require significant space to store the tree structure.
 
 ### Explanation:
 Fermat's Little Theorem is used for efficiently computing modular inverses, essential for cryptographic applications like encryption algorithms and secure communication.
