@@ -96,6 +96,14 @@ The global algorithmic market is growing rapidly, with significant investments i
 **Algorithm**: Trie Data Structure.
 
 **Code**: [Trie Data Structure Algorithm](DataStructures/trie.cpp)
+## Business Cases
+
+### 9. Fermat's Little Theorem
+**Challenge**: Efficiently compute modular inverses for cryptographic applications.  
+**Google Relevance**: Crucial for encryption algorithms and secure communication, such as SSL/TLS.  
+**Algorithm**: Fermat's Little Theorem.
+
+**Code**: [Fermat's Little Theorem Algorithm](Algorithms/fermats_little_theorem.cpp)
 
 ## Performance Analysis
 
@@ -108,6 +116,14 @@ The global algorithmic market is growing rapidly, with significant investments i
 | KD Tree                    | O(n log n) build, O(log n) search | O(n) | High-dimensional data can degrade performance        |
 | Union-Find                 | O(α(n)) per operation | O(n)             | α(n) is the Inverse Ackermann function, very slow-growing|
 | Trie                       | O(m) for insert/search| O(n*m)           | High space complexity due to storing all characters |
+| Segment Tree               | O(log n) for query/update | O(n)           | Complexity increases with more complex operations   |
+| Fermat's Little Theorem    | O(log p)              | O(1)             | Only applicable if p is a prime number              |
+
+### Explanation:
+Fermat's Little Theorem is used for efficiently computing modular inverses, essential for cryptographic applications like encryption algorithms and secure communication.
+
+### Limitations:
+The theorem is only applicable if the modulus \( p \) is a prime number, which restricts its use in certain situations.
 
 ### Explanation:
 The Trie data structure is used to efficiently store and retrieve keys in a dataset of strings. This is crucial for Google's autocomplete features, search engine indexing, and IP routing.
