@@ -20,9 +20,9 @@ Founded in 1998 by Sergey Brin and Larry Page, Google has grown from a search en
 ### Market Analysis
 Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the global technology market. Its core business, search and advertising, generates most of its revenue, using extensive data collection and sophisticated algorithms to deliver precisely targeted ads. Google's advertising platforms such as Google Ads and YouTube have a significant market share due to strong user engagement and wide reach.Beyond advertising, Google has diversified its revenue through cloud services like Google Cloud, hardware products like Pixel phones and Nest smart home devices, and other businesses like Waymo in autonomous vehicles and Verily in life sciences. The company's focus on artificial intelligence and machine learning continues to drive innovation in its product lines and provide a competitive advantage in a rapidly evolving technology environment. Although Google faces regulatory challenges and competition from other technology giants, Google's strong financial performance and strategic investments ensure its sustainable growth..
 ### Objectives
-- To compile a comprehensive set of algorithmic problems and solutions.
-- To illustrate the relevance of these algorithms in real-world applications at Google.
-- To provide detailed performance analysis of each algorithm.
+- Build a comprehensive set of algorithmic problems and solutions.
+- Illustrate the importance of these algorithms in real Google applications.
+- Performance analysis of each algorithm.
 
 ### References
 - Smith, J. (2020). "The Role of Algorithms in Modern Technology." *IEEE Transactions on Computers*.
