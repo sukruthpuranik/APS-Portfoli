@@ -1,18 +1,18 @@
-# Algorithmic Problem-Solving Portfolio
+# 🌟 Algorithmic Problem-Solving Portfolio 🌟
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/sukruthpuranik/APS-Portfolio)
 ![GitHub top language](https://img.shields.io/github/languages/top/sukruthpuranik/APS-Portfolio)
 ![GitHub stars](https://img.shields.io/github/stars/sukruthpuranik/APS-Portfolio?style=social)
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Business Cases](#business-cases)
-3. [Codes](#codes)
-4. [Performance Analysis](#performance-analysis)
-5. [Conclusion](#conclusion)
-6. [References](#references)
+1. [📋 Introduction](#introduction)
+2. [📊 Business Cases](#business-cases)
+3. [💻 Codes](#codes)
+4. [📈 Performance Analysis](#performance-analysis)
+5. [🔚 Conclusion](#conclusion)
+6. [📚 References](#references)
 
-## Introduction
+## 📋 Introduction
 
 ### Domain Overview
 Algorithmic problem-solving is crucial in developing efficient and scalable solutions for various technological challenges. In the tech industry, particularly at Google, algorithms drive innovation in search engines, data processing, and artificial intelligence.
