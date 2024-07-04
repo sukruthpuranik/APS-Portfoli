@@ -28,6 +28,7 @@ The global algorithmic market is growing rapidly, with significant investments i
 ### References
 - Smith, J. (2020). "The Role of Algorithms in Modern Technology." *IEEE Transactions on Computers*.
 - Doe, A. (2019). "Market Analysis of Algorithmic Applications." *Journal of Technology and Innovation*.
+- Encyclopædia Britannica. (2023). "Google Inc."
   
 ## 📊 Business Cases
 
