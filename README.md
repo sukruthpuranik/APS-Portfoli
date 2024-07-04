@@ -28,8 +28,8 @@ The global algorithmic market is growing rapidly, with significant investments i
 ### References
 - Smith, J. (2020). "The Role of Algorithms in Modern Technology." *IEEE Transactions on Computers*.
 - Doe, A. (2019). "Market Analysis of Algorithmic Applications." *Journal of Technology and Innovation*.
-
-## Business Cases
+  
+## 📊 Business Cases
 
 ### 1. Optimizing Search Engine Queries
 **Challenges**: Handling large volumes of data and providing real-time search results.  
@@ -80,6 +80,11 @@ The global algorithmic market is growing rapidly, with significant investments i
 **Challenge**: Efficiently find the nearest neighbor to a point in a multi-dimensional space.  
 **Google Relevance**: Crucial for geographical data handling and search query optimization.  
 **Algorithm**: KD Tree.
+
+**Code**: [KD Tree Algorithm](DataStructures/kd_tree.cpp)
+
+![KD Tree Diagram](https://example.com/kd_tree_diagram.png)
+
 
 **Code**: [KD Tree Algorithm](DataStructures/kd_tree.cpp)
 
@@ -186,4 +191,7 @@ The Stable Marriage Problem algorithm finds a stable matching between two sets o
 
 ### Limitations:
 The algorithm has a time complexity of O(n^2), which may not be efficient for very large sets.
+## 🔚 Conclusion
+
+This portfolio highlights the importance of algorithmic problem-solving in various real-world applications at Google. By leveraging efficient algorithms, we can enhance performance, optimize resources, and drive innovation across different domains. Each algorithm discussed plays a critical role in addressing specific challenges, from search engine optimization to secure communications.
 
