@@ -50,33 +50,60 @@ The global algorithmic market is growing rapidly, with significant investments i
 **Market Benefits**: Improved user engagement, personalized experience.  
 **Suitable Algorithms**: Collaborative Filtering, Matrix Factorization.  
 **Design Techniques**: Use of recommendation systems.
-### 2. Johnson-Trotter Algorithm
+
+### 4. Johnson-Trotter Algorithm
 **Challenge**: Generate all permutations of a set.  
 **Google Relevance**: Useful for testing systems, shuffling search results, and combinatorial optimizations.  
 **Algorithm**: Johnson-Trotter Algorithm.
 
 **Code**: [Johnson-Trotter Algorithm](SearchAlgorithms/johnson_trotter.cpp)
-### 3. Skip List
+
+### Explanation:
+The Johnson-Trotter algorithm generates all permutations of a set, which can be useful for various tasks at Google. For instance, it can be used in testing systems to ensure robustness by testing all possible configurations, shuffling search results to provide varied outcomes, and solving combinatorial optimization problems.
+
+### Limitations:
+The algorithm has a factorial time complexity (O(n!)), making it impractical for very large sets.
+
+### 5. Skip List
 **Challenge**: Implement an efficient search structure.  
 **Google Relevance**: Useful for indexing and search operations in databases and search engines.  
 **Algorithm**: Skip List.
 
 **Code**: [Skip List](SkipList/skip_list.cpp)
-### 4. Stable Marriage Problem
+
+### Explanation:
+The Skip List algorithm provides an efficient way to perform search operations with an average time complexity of O(log n). It is useful for indexing and search operations in databases and search engines, such as those used by Google. The Skip List can handle a large number of elements while maintaining quick search times, making it suitable for dynamic data where insertions and deletions are frequent.
+
+### Limitations:
+In the worst case, the time complexity can degrade to O(n), especially if the list is not properly balanced.
+
+### 6. Stable Marriage Problem
 **Challenge**: Match pairs (e.g., job candidates to roles) in a stable manner.  
 **Google Relevance**: Useful for job candidate matching systems, user-content pairing, and other matching algorithms.  
 **Algorithm**: Stable Marriage Problem.
 
 **Code**: [Stable Marriage Problem](StableMarriageProblem/stable_marriage.cpp)
 
-### 4. A* Search Algorithm
+### Explanation:
+The Stable Marriage Problem algorithm finds a stable matching between two sets of elements, such as job candidates and job positions. It ensures that there are no two elements which would prefer each other over their current matches. Google can use this algorithm for matching job candidates to roles, optimizing user-content pairings, and other applications where stable matches are essential.
+
+### Limitations:
+The algorithm has a time complexity of O(n^2), which may not be efficient for very large sets.
+
+### 7. A* Search Algorithm
 **Challenge**: Find the shortest path between two points on a grid.  
 **Google Relevance**: Crucial for pathfinding in Google Maps and optimizing search algorithms.  
 **Algorithm**: A* Search.
 
 **Code**: [A* Search Algorithm](AStarSearch/a_star_search.cpp)
 
-### 5. KD Tree for Nearest Neighbor Search
+### Explanation:
+The A* Search algorithm is used to find the shortest path between two points. It is highly relevant for Google's services like Google Maps for efficient route planning and navigation.
+
+### Limitations:
+The algorithm's performance heavily depends on the accuracy of the heuristic function. In the worst case, its time and space complexity can be exponential (O(b^d)).
+
+### 8. KD Tree for Nearest Neighbor Search
 **Challenge**: Efficiently find the nearest neighbor to a point in a multi-dimensional space.  
 **Google Relevance**: Crucial for geographical data handling and search query optimization.  
 **Algorithm**: KD Tree.
@@ -84,32 +111,52 @@ The global algorithmic market is growing rapidly, with significant investments i
 **Code**: [KD Tree Algorithm](DataStructures/kd_tree.cpp)
 
 ![KD Tree Diagram](https://example.com/kd_tree_diagram.png)
+### Explanation:
+The KD Tree algorithm is used for nearest neighbor searches in multi-dimensional spaces. This is useful for Google’s services like Maps and search query optimizations.
 
+### Limitations:
+Performance can degrade with high-dimensional data, as the algorithm may need to explore many nodes.
 
 **Code**: [KD Tree Algorithm](DataStructures/kd_tree.cpp)
 
-### 6. Union-Find Algorithm
+### 9. Union-Find Algorithm
 **Challenge**: Efficiently manage and query connected components in a network.  
 **Google Relevance**: Essential for managing large-scale networks like social networks and connectivity in distributed systems.  
 **Algorithm**: Union-Find with Path Compression and Union by Rank.
 
 **Code**: [Union-Find Algorithm](DataStructures/union_find.cpp)
 
-### 7. Trie Data Structure
+### Explanation:
+The Union-Find algorithm efficiently manages and queries connected components in a network. This is crucial for Google's services like managing social networks and ensuring connectivity in distributed systems.
+
+### Limitations:
+The algorithm has nearly constant time complexity per operation, but the Inverse Ackermann function, though very slow-growing, might still impact performance slightly in extreme cases.
+
+### 10. Trie Data Structure
 **Challenge**: Efficiently store and retrieve keys in a dataset of strings.  
 **Google Relevance**: Essential for autocomplete features, search engine indexing, and IP routing.  
 **Algorithm**: Trie Data Structure.
 
 **Code**: [Trie Data Structure Algorithm](DataStructures/trie.cpp)
-## Business Cases
 
-### 9. Fermat's Little Theorem
+### Explanation:
+The Trie data structure is used to efficiently store and retrieve keys in a dataset of strings. This is crucial for Google's autocomplete features, search engine indexing, and IP routing.
+
+### Limitations:
+While Tries offer efficient search operations, they have a high space complexity due to storing each character of every word.
+
+### 11. Fermat's Little Theorem
 **Challenge**: Efficiently compute modular inverses for cryptographic applications.  
 **Google Relevance**: Crucial for encryption algorithms and secure communication, such as SSL/TLS.  
 **Algorithm**: Fermat's Little Theorem.
 
 **Code**: [Fermat's Little Theorem Algorithm](Algorithms/fermats_little_theorem.cpp)
-## Business Cases
+
+### Explanation:
+Fermat's Little Theorem is used for efficiently computing modular inverses, essential for cryptographic applications like encryption algorithms and secure communication.
+
+### Limitations:
+The theorem is only applicable if the modulus \( p \) is a prime number, which restricts its use in certain situations.
 
 ### 12. Segment Tree
 **Challenge**: Efficiently handle range query problems such as sum, minimum, or maximum over a segment of an array.  
@@ -117,6 +164,12 @@ The global algorithmic market is growing rapidly, with significant investments i
 **Algorithm**: Segment Tree.
 
 **Code**: [Segment Tree Algorithm](DataStructures/segment_tree.cpp)
+
+### Explanation:
+Segment Trees are used for efficiently handling range query problems, essential for various data retrieval tasks in Google services such as search engines and databases.
+
+### Limitations:
+While Segment Trees provide efficient query and update operations, their complexity can increase with more complex operations and they require significant space to store the tree structure.
 
 ## Performance Analysis
 
@@ -135,62 +188,6 @@ The global algorithmic market is growing rapidly, with significant investments i
 | A* Search                  | O(b^d)                | O(b^d)           | Performance heavily depends on the heuristic used   |
 | Segment Tree               | O(log n) for query/update | O(n)           | Complexity increases with more complex operations   |
 
-### Explanation:
-Segment Trees are used for efficiently handling range query problems, essential for various data retrieval tasks in Google services such as search engines and databases.
-
-### Limitations:
-While Segment Trees provide efficient query and update operations, their complexity can increase with more complex operations and they require significant space to store the tree structure.
-
-### Explanation:
-Fermat's Little Theorem is used for efficiently computing modular inverses, essential for cryptographic applications like encryption algorithms and secure communication.
-
-### Limitations:
-The theorem is only applicable if the modulus \( p \) is a prime number, which restricts its use in certain situations.
-
-### Explanation:
-The Trie data structure is used to efficiently store and retrieve keys in a dataset of strings. This is crucial for Google's autocomplete features, search engine indexing, and IP routing.
-
-### Limitations:
-While Tries offer efficient search operations, they have a high space complexity due to storing each character of every word.
-
-### Explanation:
-The Union-Find algorithm efficiently manages and queries connected components in a network. This is crucial for Google's services like managing social networks and ensuring connectivity in distributed systems.
-
-### Limitations:
-The algorithm has nearly constant time complexity per operation, but the Inverse Ackermann function, though very slow-growing, might still impact performance slightly in extreme cases.
-
-### Explanation:
-The KD Tree algorithm is used for nearest neighbor searches in multi-dimensional spaces. This is useful for Google’s services like Maps and search query optimizations.
-
-### Limitations:
-Performance can degrade with high-dimensional data, as the algorithm may need to explore many nodes.
-
-### Explanation:
-The A* Search algorithm is used to find the shortest path between two points. It is highly relevant for Google's services like Google Maps for efficient route planning and navigation.
-
-### Limitations:
-The algorithm's performance heavily depends on the accuracy of the heuristic function. In the worst case, its time and space complexity can be exponential (O(b^d)).
-
-### Explanation:
-The Rod Cutting problem uses dynamic programming to find the maximum obtainable value by cutting up the rod and selling the pieces. This method is efficient in optimizing resource allocation and can be adapted for various optimization problems at Google, such as cloud resource allocation and ad revenue maximization.
-
-### Limitations:
-While the dynamic programming solution is efficient, its performance can degrade with very large inputs due to its quadratic time complexity.
-### Explanation:
-The Johnson-Trotter algorithm generates all permutations of a set, which can be useful for various tasks at Google. For instance, it can be used in testing systems to ensure robustness by testing all possible configurations, shuffling search results to provide varied outcomes, and solving combinatorial optimization problems.
-
-### Limitations:
-The algorithm has a factorial time complexity (O(n!)), making it impractical for very large sets.
-### Explanation:
-The Skip List algorithm provides an efficient way to perform search operations with an average time complexity of O(log n). It is useful for indexing and search operations in databases and search engines, such as those used by Google. The Skip List can handle a large number of elements while maintaining quick search times, making it suitable for dynamic data where insertions and deletions are frequent.
-
-### Limitations:
-In the worst case, the time complexity can degrade to O(n), especially if the list is not properly balanced.
-### Explanation:
-The Stable Marriage Problem algorithm finds a stable matching between two sets of elements, such as job candidates and job positions. It ensures that there are no two elements which would prefer each other over their current matches. Google can use this algorithm for matching job candidates to roles, optimizing user-content pairings, and other applications where stable matches are essential.
-
-### Limitations:
-The algorithm has a time complexity of O(n^2), which may not be efficient for very large sets.
 ## 🔚 Conclusion
 
 This portfolio highlights the importance of algorithmic problem-solving in various real-world applications at Google. By leveraging efficient algorithms, we can enhance performance, optimize resources, and drive innovation across different domains. Each algorithm discussed plays a critical role in addressing specific challenges, from search engine optimization to secure communications.
