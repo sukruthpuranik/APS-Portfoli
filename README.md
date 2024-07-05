@@ -119,33 +119,7 @@ Segment Trees are used for efficiently handling range query problems, essential 
 ### Limitations:
 While Segment Trees provide efficient query and update operations, their complexity can increase with more complex operations and they require significant space to store the tree structure.
 
-### 5. Skip List
-**Challenge**: Implement an efficient search structure.  
-**Google Relevance**: Useful for indexing and search operations in databases and search engines.  
-**Algorithm**: Skip List.
-
-**Code**: [Skip List](SkipList/skip_list.cpp)
-
-### Explanation:
-The Skip List algorithm provides an efficient way to perform search operations with an average time complexity of O(log n). It is useful for indexing and search operations in databases and search engines, such as those used by Google. The Skip List can handle a large number of elements while maintaining quick search times, making it suitable for dynamic data where insertions and deletions are frequent.
-
-### Limitations:
-In the worst case, the time complexity can degrade to O(n), especially if the list is not properly balanced.
-
-### 6. Stable Marriage Problem
-**Challenge**: Match pairs (e.g., job candidates to roles) in a stable manner.  
-**Google Relevance**: Useful for job candidate matching systems, user-content pairing, and other matching algorithms.  
-**Algorithm**: Stable Marriage Problem.
-
-**Code**: [Stable Marriage Problem](StableMarriageProblem/stable_marriage.cpp)
-
-### Explanation:
-The Stable Marriage Problem algorithm finds a stable matching between two sets of elements, such as job candidates and job positions. It ensures that there are no two elements which would prefer each other over their current matches. Google can use this algorithm for matching job candidates to roles, optimizing user-content pairings, and other applications where stable matches are essential.
-
-### Limitations:
-The algorithm has a time complexity of O(n^2), which may not be efficient for very large sets.
-
-### 7. A* Search Algorithm
+### 5. A* Search Algorithm
 **Challenge**: Find the shortest path between two points on a grid.  
 **Google Relevance**: Crucial for pathfinding in Google Maps and optimizing search algorithms.  
 **Algorithm**: A* Search.
@@ -153,7 +127,7 @@ The algorithm has a time complexity of O(n^2), which may not be efficient for ve
 **Code**: [A* Search Algorithm](AStarSearch/a_star_search.cpp)
 
 ### Explanation:
-The A* Search algorithm is used to find the shortest path between two points. It is highly relevant for Google's services like Google Maps for efficient route planning and navigation.
+To discover the shortest path in weighted graphs, one graph traversal and pathfinding algorithm called A* (A-star) is employed. To increase efficiency, it blends heuristics with the advantages of Dijkstra's algorithm. While A* is full and optimal, its high space complexity renders it less useful for travel-routing systems as compared to memory-bounded techniques or algorithms with pre-processed graphs. Despite these drawbacks, the 1968 design by Peter Hart, Nils Nilsson, and Bertram Raphael is nevertheless very successful in many situations.
 
 ### Limitations:
 The algorithm's performance heavily depends on the accuracy of the heuristic function. In the worst case, its time and space complexity can be exponential (O(b^d)).
