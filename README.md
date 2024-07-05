@@ -24,7 +24,7 @@ h3 {
 
 
 p {
-    color: #555555; /* Dark gray text */
+    color: #990011; /* Dark gray text */
 }
 
 </style>
