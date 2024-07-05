@@ -82,10 +82,12 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 **KD Tree for Nearest Neighbour Search**: To manage and query the massive amounts of data involved in ranking web pages, PageRank might benefit from effective data structures like KD Trees.
 
 ### 2. Crawling
-**Challenges**: High dimensional data, real-time processing.  
-**Market Benefits**: Increased click-through rates, higher ad revenue.  
-**Suitable Algorithms**: Logistic Regression, Decision Trees.  
-**Design Techniques**: Machine learning models for predictive analysis.
+**Challenges**:The task is to index web pages and browse the internet methodically. 
+**Google Relevance**: A vital component for obtaining online information and updating search engine indices.
+**Algorithm**: The process of web crawling uses either depth-first search (DFS) or breadth-first search (BFS) to navigate web pages.
+<div style="text-align:center">
+  <img src="PageRanks-Example.svg.png" alt="Crawling" />
+</div>
 
 ### 3. Indexing
 **Challenges**: Real-time user data processing, maintaining user privacy.  
