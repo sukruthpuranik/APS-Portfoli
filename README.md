@@ -1,4 +1,4 @@
-# 🌟 Algorithmic Problem-Solving Portfolio 🌟
+<h1 style="color:blue;">Algorithmic Problem-Solving Portfolio</h1>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/sukruthpuranik/APS-Portfolio)
 ![GitHub top language](https://img.shields.io/github/languages/top/sukruthpuranik/APS-Portfolio)
@@ -31,11 +31,10 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
   
 ## 📊 Business Cases
 
-### 1. Optimizing Search Engine Queries
-**Challenges**: Handling large volumes of data and providing real-time search results.  
-**Market Benefits**: Enhanced user experience, increased ad revenue.  
-**Suitable Algorithms**: Trie, Radix Tree.  
-**Design Techniques**: Use of data structures to optimize query handling.
+### 1. ### PageRank Algorithm
+**Challenge**: Rank web pages based on their importance and relevance.  
+**Google Relevance**: Core to Google’s search engine, determining the order of search results.  
+**Algorithm**: PageRank uses a probability distribution to represent the likelihood of a person randomly clicking on links to arrive at a particular page.
 
 ![Search Engine Diagram](https://example.com/search_engine_diagram.png)
 
