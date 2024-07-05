@@ -81,13 +81,13 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 
 **KD Tree for Nearest Neighbour Search**: To manage and query the massive amounts of data involved in ranking web pages, PageRank might benefit from effective data structures like KD Trees.
 
-### 2. Ad Click Prediction
+### 2. Crawling
 **Challenges**: High dimensional data, real-time processing.  
 **Market Benefits**: Increased click-through rates, higher ad revenue.  
 **Suitable Algorithms**: Logistic Regression, Decision Trees.  
 **Design Techniques**: Machine learning models for predictive analysis.
 
-### 3. Content Personalization
+### 3. Indexing
 **Challenges**: Real-time user data processing, maintaining user privacy.  
 **Market Benefits**: Improved user engagement, personalized experience.  
 **Suitable Algorithms**: Collaborative Filtering, Matrix Factorization.  
