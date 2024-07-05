@@ -3,13 +3,13 @@
 
 <style>
 body {
-    background-color: #f0f8ff; /* Alice Blue */
-    color: #333; /* Dark gray text */
+    background-color: #f0f8f; /* Alice Blue */
+    color: #333333; /* Dark gray text */
     font-family: Arial, sans-serif; /* Clean font */
 }
 
 h1 {
-    color: #ff5733; /* Coral */
+    color: #ff7f50; /* Coral */
 }
 
 h2 {
@@ -17,11 +17,13 @@ h2 {
 }
 
 h3 {
-    color: #4caf50; /* Green */
+    color: #32cd32; /* Lime Green */
+    /* Other CSS properties for h3 */
 }
 
+
 p {
-    color: #555; /* Dark gray text */
+    color: #555555; /* Dark gray text */
 }
 
 </style>
