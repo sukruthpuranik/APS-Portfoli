@@ -90,10 +90,17 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 </div>
 
 ### 3. Indexing
-**Challenges**: Real-time user data processing, maintaining user privacy.  
-**Market Benefits**: Improved user engagement, personalized experience.  
-**Suitable Algorithms**: Collaborative Filtering, Matrix Factorization.  
-**Design Techniques**: Use of recommendation systems.
+**Challenge**: Efficiently store and retrieve large amounts of web data.
+**Google Relevance**: Core to Google's ability to deliver fast and relevant search results.
+**Algorithm**: Inverted Indexing, a data structure that maps content to its location in a database.
+
+**Suffix Tree**: By storing word or document suffixes, suffix trees effectively index text, allowing for quick substring searches and pattern matching within indexed information.
+
+**Tries**: This is an attempt to index words or terms by storing them in a form that makes efficient prefix-based retrieval possible, enabling autocomplete and speedy search engine keyword lookup.
+
+**Algorithm for Burrows-Wheeler Transform (BWT)**: BWT facilitates data compression and, by optimising text representation for effective retrieval techniques like suffix arrays, may help indexing need less storage.
+
+**Binary Trees**: Essential for preserving effective lookup structures during search engine indexing procedures, binary trees arrange indexed data for quick searching, insertion, and deletion operations.
 
 ### 4. Johnson-Trotter Algorithm
 **Challenge**: Generate all permutations of a set.  
