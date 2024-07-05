@@ -1,3 +1,13 @@
 body {
-    background-color: #f0f0f0; /* Change this to your desired background color */
+    background: linear-gradient(to right, 
+                                red, 
+                                orange, 
+                                yellow, 
+                                green, 
+                                blue, 
+                                indigo, 
+                                violet);
+    height: 100vh; /* Ensures the background covers the full height of the viewport */
+    margin: 0; /* Removes default margin */
+    font-family: Arial, sans-serif; /* Optional: Sets a default font for better readability */
 }
