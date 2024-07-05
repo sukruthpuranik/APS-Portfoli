@@ -3,26 +3,25 @@
 
 <style>
 body {
-    background-color: #7ac142; /* Vibrant green background */
-    color: #ffffff; /* White text on green background */
+    background-color: #f0f8ff; /* Alice Blue */
+    color: #333; /* Dark gray text */
     font-family: Arial, sans-serif; /* Clean font */
 }
 
-
 h1 {
-    color: #964734; /* Red */
+    color: #ff5733; /* Coral */
 }
 
 h2 {
-    color: #fd7e14; /* Orange */
+    color: #1e90ff; /* Dodger Blue */
 }
 
 h3 {
-    color: #28a745; /* Green */
+    color: #4caf50; /* Green */
 }
 
 p {
-    color: #ffc107; /* Yellow */
+    color: #555; /* Dark gray text */
 }
 
 </style>
