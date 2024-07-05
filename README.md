@@ -3,7 +3,7 @@
 
 <style>
 body {
-    background-color: #007bff; /* Blue */
+    background-color: #4169ef; /* Blue */
     color: #ffffff; /* White text on blue background */
     font-family: Arial, sans-serif;
 }
