@@ -1,5 +1,41 @@
 <link rel="stylesheet" type="text/css" href="style.css">
+<!-- README.md -->
 
+<style>
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif; /* Clean font */
+}
+
+h1 {
+    color: #ff0000; /* Red */
+}
+
+h2 {
+    color: #ff7f00; /* Orange */
+}
+
+h3 {
+    color: #ffff00; /* Yellow */
+}
+
+h4 {
+    color: #00ff00; /* Green */
+}
+
+h5 {
+    color: #0000ff; /* Blue */
+}
+
+h6 {
+    color: #4b0082; /* Indigo */
+}
+
+p {
+    color: #8b00ff; /* Violet */
+}
+</style>
 <h1 style="color:blue;">Algorithmic Problem-Solving Portfolio</h1>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/sukruthpuranik/APS-Portfolio)
