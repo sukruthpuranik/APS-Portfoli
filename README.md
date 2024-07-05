@@ -108,7 +108,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 **Algorithm**: Dijkstra's Algorithm uses a priority queue to efficiently find the shortest path from a source node to all other nodes in a graph.
 
 <div style="text-align:center">
-  <img src="dijkstra_example.png" alt="Dijkstra's Algorithm" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif" alt="Dijkstra's Algorithm Animation" />
 </div>
 **Code**: [Segment Tree Algorithm](DataStructures/segment_tree.cpp)
 
