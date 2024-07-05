@@ -102,18 +102,21 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 
 **Binary Trees**: Essential for preserving effective lookup structures during search engine indexing procedures, binary trees arrange indexed data for quick searching, insertion, and deletion operations.
 
-### 4. Johnson-Trotter Algorithm
-**Challenge**: Generate all permutations of a set.  
-**Google Relevance**: Useful for testing systems, shuffling search results, and combinatorial optimizations.  
-**Algorithm**: Johnson-Trotter Algorithm.
+### 4. Dijkstra’s Algorithm
+**Challenge**: Find the shortest path in a graph with non-negative edge weights.
+**Google Relevance**: Essential for routing and navigation systems like Google Maps.
+**Algorithm**: Dijkstra's Algorithm uses a priority queue to efficiently find the shortest path from a source node to all other nodes in a graph.
 
-**Code**: [Johnson-Trotter Algorithm](SearchAlgorithms/johnson_trotter.cpp)
+<div style="text-align:center">
+  <img src="dijkstra_example.png" alt="Dijkstra's Algorithm" />
+</div>
+**Code**: [Segment Tree Algorithm](DataStructures/segment_tree.cpp)
 
 ### Explanation:
-The Johnson-Trotter algorithm generates all permutations of a set, which can be useful for various tasks at Google. For instance, it can be used in testing systems to ensure robustness by testing all possible configurations, shuffling search results to provide varied outcomes, and solving combinatorial optimization problems.
+Segment Trees are used for efficiently handling range query problems, essential for various data retrieval tasks in Google services such as search engines and databases.
 
 ### Limitations:
-The algorithm has a factorial time complexity (O(n!)), making it impractical for very large sets.
+While Segment Trees provide efficient query and update operations, their complexity can increase with more complex operations and they require significant space to store the tree structure.
 
 ### 5. Skip List
 **Challenge**: Implement an efficient search structure.  
@@ -222,19 +225,10 @@ Segment Trees are used for efficiently handling range query problems, essential 
 ### Limitations:
 While Segment Trees provide efficient query and update operations, their complexity can increase with more complex operations and they require significant space to store the tree structure.
 
-
-### 13. Dijkstra’s Algorithm
-**Challenge**: Efficiently handle range query problems such as sum, minimum, or maximum over a segment of an array.  
-**Google Relevance**: Used in various applications where efficient data retrieval is necessary, such as Google Search and database systems.  
-**Algorithm**: Segment Tree.
-
-**Code**: [Segment Tree Algorithm](DataStructures/segment_tree.cpp)
-
-### Explanation:
-Segment Trees are used for efficiently handling range query problems, essential for various data retrieval tasks in Google services such as search engines and databases.
-
-### Limitations:
-While Segment Trees provide efficient query and update operations, their complexity can increase with more complex operations and they require significant space to store the tree structure.
+### 13. Johnson-Trotter Algorithm
+**Challenge**: Generate all permutations of a set.  
+**Google Relevance**: Useful for testing systems, shuffling search results, and combinatorial optimizations.  
+**Algorithm**: Johnson-Trotter Algorithm.
 ## Performance Analysis
 
 | Algorithm                  | Time Complexity       | Space Complexity | Limitations                                         |
