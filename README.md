@@ -45,6 +45,9 @@ p {
 ## 📋 Introduction
 
 ### Domain Overview
+<div style="text-align:center">
+  <img src="PageRanks-Example.svg.png" alt="Page Rank" />
+</div>
 Founded in 1998 by Sergey Brin and Larry Page, Google has grown from a search engine to a technology giant that offers more than 50 services and products, including email, online document creation and software for mobile devices. It became Alphabet Inc. in 2015. subsidiary. Google's innovative search technology based on website backlink tracking has enabled it to handle more than 70% of global search queries. The company's acquisition strategy, including the purchase of YouTube and Android, increased its dominance. Despite setbacks such as a failed attempt to enter the Chinese market, Google led the way in online advertising and maintained a strong presence in the market with products such as Gmail, Google Maps, Chrome and the Android operating system. In 2011, Google surpassed Apple's iOS in mobile operating system market share. Google+ tried to compete with Facebook in social networking, but it was canceled in 2019. Alphabet's restructuring was aimed at accelerating innovation, and Sundar Pichai was the CEO of both Google and Alphabet(Encyclopaedia Britannica, 2023).
 
 ### Market Analysis
