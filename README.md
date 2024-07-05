@@ -70,6 +70,14 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
   <img src="PageRanks-Example.svg.png" alt="Page Rank" />
 </div>
 
+Optimising Search Engine Queries: PageRank is a fundamental element of SEO because it aids in the ranking of webpages according to their significance and applicability.
+
+A Search Algorithm*: A* is used for pathfinding and PageRank is used for ranking nodes (web pages) in a graph. Both algorithms entail graph traversal and optimisation.
+
+Union-Find Algorithm: This algorithm is utilised for network connectivity, whereas PageRank handles ranking. Both require an understanding of network structure.
+
+KD Tree for Nearest Neighbour Search: To manage and query the massive amounts of data involved in ranking web pages, PageRank might benefit from effective data structures like KD Trees.
+
 ### 2. Ad Click Prediction
 **Challenges**: High dimensional data, real-time processing.  
 **Market Benefits**: Increased click-through rates, higher ad revenue.  
