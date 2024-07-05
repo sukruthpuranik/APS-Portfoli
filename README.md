@@ -18,7 +18,7 @@ h2 {
 }
 
 h3 {
-    color: #32cd32; /* Lime Green */
+    color: #333333; /* Lime Green */
     /* Other CSS properties for h3 */
 }
 
