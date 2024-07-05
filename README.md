@@ -9,32 +9,33 @@ body {
 }
 
 h1 {
-    color: #ff0000; /* Red */
+    color: #ff5733; /* Coral */
 }
 
 h2 {
-    color: #ff7f00; /* Orange */
+    color: #ff8c00; /* Dark orange */
 }
 
 h3 {
-    color: #ffff00; /* Yellow */
+    color: #ffc300; /* Yellow */
 }
 
 h4 {
-    color: #00ff00; /* Green */
+    color: #4caf50; /* Green */
 }
 
 h5 {
-    color: #0000ff; /* Blue */
+    color: #1e90ff; /* Dodger blue */
 }
 
 h6 {
-    color: #4b0082; /* Indigo */
+    color: #800080; /* Purple */
 }
 
 p {
     color: #8b00ff; /* Violet */
 }
+
 </style>
 <h1>Algorithmic Problem-Solving Portfolio</h1>
 
