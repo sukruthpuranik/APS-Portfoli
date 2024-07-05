@@ -110,7 +110,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 <div style="text-align:center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif" alt="Dijkstra's Algorithm Animation" />
 </div>
-**Code**: [Dijkstra's Algorithm](DataStructures/segment_tree.cpp)
+**Code**: [Dijkstra's Algorithm](GraphAlgorithms/Dijkstra's algorithm.cpp)
 
 ### Explanation:
 Segment Trees are used for efficiently handling range query problems, essential for various data retrieval tasks in Google services such as search engines and databases.
