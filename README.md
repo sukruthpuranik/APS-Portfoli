@@ -61,12 +61,13 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
   
 ## 📊 Business Cases
 
-### 1. ### PageRank Algorithm
+### 1. PageRank Algorithm
 **Challenge**: Rank web pages based on their importance and relevance.  
 **Google Relevance**: Core to Google’s search engine, determining the order of search results.  
 **Algorithm**: PageRank uses a probability distribution to represent the likelihood of a person randomly clicking on links to arrive at a particular page.
 
-![Page Rank](PageRanks-Example.svg.png)
+![Page Rank](relative/path/to/PageRanks-Example.svg.png)
+
 
 ### 2. Ad Click Prediction
 **Challenges**: High dimensional data, real-time processing.  
