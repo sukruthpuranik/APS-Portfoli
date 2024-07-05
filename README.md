@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    color: #dc3545; /* Red */
+    color: #964734; /* Red */
 }
 
 h2 {
