@@ -3,10 +3,11 @@
 
 <style>
 body {
-    background-color: #f0f8f; /* Alice Blue */
-    color: #333333; /* Dark gray text */
+    background-color: #f0f8ff; /* Light Sky Blue */
+    color: #333; /* Dark gray text */
     font-family: Arial, sans-serif; /* Clean font */
 }
+
 
 h1 {
     color: #ff7f50; /* Coral */
