@@ -1,13 +1,7 @@
 body {
-    background: linear-gradient(to right, 
-                                red, 
-                                orange, 
-                                yellow, 
-                                green, 
-                                blue, 
-                                indigo, 
-                                violet);
-    height: 100vh; /* Ensures the background covers the full height of the viewport */
-    margin: 0; /* Removes default margin */
-    font-family: Arial, sans-serif; /* Optional: Sets a default font for better readability */
+    background-color: #1a1a1a; /* Dark gray */
+    color: #f5f5f5; /* Light text for contrast */
+    font-family: Arial, sans-serif; /* Clean font */
+    margin: 0;
+    padding: 0;
 }
