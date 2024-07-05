@@ -36,7 +36,7 @@ p {
     color: #8b00ff; /* Violet */
 }
 </style>
-<h1 style="color:blue;">Algorithmic Problem-Solving Portfolio</h1>
+<h1>Algorithmic Problem-Solving Portfolio</h1>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/sukruthpuranik/APS-Portfolio)
 ![GitHub top language](https://img.shields.io/github/languages/top/sukruthpuranik/APS-Portfolio)
