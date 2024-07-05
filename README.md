@@ -213,6 +213,19 @@ Segment Trees are used for efficiently handling range query problems, essential 
 ### Limitations:
 While Segment Trees provide efficient query and update operations, their complexity can increase with more complex operations and they require significant space to store the tree structure.
 
+
+### 13. Dijkstra’s Algorithm
+**Challenge**: Efficiently handle range query problems such as sum, minimum, or maximum over a segment of an array.  
+**Google Relevance**: Used in various applications where efficient data retrieval is necessary, such as Google Search and database systems.  
+**Algorithm**: Segment Tree.
+
+**Code**: [Segment Tree Algorithm](DataStructures/segment_tree.cpp)
+
+### Explanation:
+Segment Trees are used for efficiently handling range query problems, essential for various data retrieval tasks in Google services such as search engines and databases.
+
+### Limitations:
+While Segment Trees provide efficient query and update operations, their complexity can increase with more complex operations and they require significant space to store the tree structure.
 ## Performance Analysis
 
 | Algorithm                  | Time Complexity       | Space Complexity | Limitations                                         |
