@@ -66,8 +66,9 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 **Google Relevance**: Core to Google’s search engine, determining the order of search results.  
 **Algorithm**: PageRank uses a probability distribution to represent the likelihood of a person randomly clicking on links to arrive at a particular page.
 
-![Page Rank](PageRanks-Example.svg.png)
-
+<div style="text-align:center">
+  <img src="PageRanks-Example.svg.png" alt="Page Rank" />
+</div>
 
 ### 2. Ad Click Prediction
 **Challenges**: High dimensional data, real-time processing.  
