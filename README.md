@@ -3,37 +3,25 @@
 
 <style>
 body {
-    background-color: #000000; /* Dark background */
-    color: #f0f8ff; /* Light text color */
-    font-family: Arial, sans-serif; /* Clean font */
+    background-color: #007bff; /* Blue */
+    color: #ffffff; /* White text on blue background */
+    font-family: Arial, sans-serif;
 }
 
 h1 {
-    color: #ff5733; /* Coral */
+    color: #dc3545; /* Red */
 }
 
 h2 {
-    color: #ff8c00; /* Dark orange */
+    color: #fd7e14; /* Orange */
 }
 
 h3 {
-    color: #ffc300; /* Yellow */
-}
-
-h4 {
-    color: #4caf50; /* Green */
-}
-
-h5 {
-    color: #1e90ff; /* Dodger blue */
-}
-
-h6 {
-    color: #800080; /* Purple */
+    color: #28a745; /* Green */
 }
 
 p {
-    color: #8b00ff; /* Violet */
+    color: #ffc107; /* Yellow */
 }
 
 </style>
