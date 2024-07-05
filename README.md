@@ -3,18 +3,18 @@
 
 <style>
 body {
-    background-color: #f28eb2; /* Light Sky Blue */
-    color: #333333; /* Dark gray text */
+    background-color: #0000FF; /* Light Sky Blue */
+    color: #000000; /* Dark gray text */
     font-family: Arial, sans-serif; /* Clean font */
 }
 
 
 h1 {
-    color: #ff7f50; /* Coral */
+    color: #FF0000; /* Coral */
 }
 
 h2 {
-    color: #1e90ff; /* Dodger Blue */
+    color: #FFFF00; /* Dodger Blue */
 }
 
 h3 {
@@ -24,7 +24,7 @@ h3 {
 
 
 p {
-    color: #990011; /* Dark gray text */
+    color: #000000; /* Dark gray text */
 }
 
 </style>
