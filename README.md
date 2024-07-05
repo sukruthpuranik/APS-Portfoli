@@ -3,10 +3,11 @@
 
 <style>
 body {
-    background-color: #ofa4af; /* Blue */
-    color: #ffffff; /* White text on blue background */
-    font-family: Arial, sans-serif;
+    background-color: #7ac142; /* Vibrant green background */
+    color: #ffffff; /* White text on green background */
+    font-family: Arial, sans-serif; /* Clean font */
 }
+
 
 h1 {
     color: #964734; /* Red */
