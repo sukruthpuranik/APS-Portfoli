@@ -86,7 +86,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 **Google Relevance**: A vital component for obtaining online information and updating search engine indices.
 **Algorithm**: The process of web crawling uses either depth-first search (DFS) or breadth-first search (BFS) to navigate web pages.
 <div style="text-align:center">
-  <img src="PageRanks-Example.svg.png" alt="Crawling" />
+  <img src="img/WebCrawlerArchitecture.svg.png" alt="Crawling" />
 </div>
 
 ### 3. Indexing
