@@ -161,7 +161,7 @@ Not Conventional. The majority of languages lack an integrated trie implementati
 **Google Relevance**: Crucial for text indexing,detecting repeated substrings in search engines.  
 **Algorithm**: Suffix Tree.
 <div style="text-align:center">
-  <img src="img/Trie_example.svg.png" alt="Suffix Tree" />
+  <img src="img/Suffix_tree_BANANA.svg.png" alt="Suffix Tree" />
 </div>
 **Code**: [Trie Data Structure Algorithm](DataStructures/trie.cpp)
 ### Explanation:
