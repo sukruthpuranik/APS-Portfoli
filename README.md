@@ -114,23 +114,30 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 **Code**: [Dijkstra's Algorithm](GraphAlgorithms/Dijkstra's algorithm.cpp)
 
 ### Explanation:
-Segment Trees are used for efficiently handling range query problems, essential for various data retrieval tasks in Google services such as search engines and databases.
+Edsger W. Dijkstra developed Dijkstra's method in 1956 to determine the shortest pathways between nodes in weighted graphs, like road networks. The algorithm can be stopped early to discover the shortest path to a certain destination. It begins at a given source node and finds the shortest path to every other node. Its original version operated in quadratic time and selects the shortest known paths using a min-priority queue.The algorithm is frequently used as a subroutine in other algorithms, such as Johnson's algorithm, and in network routing protocols (e.g., IS-IS, OSPF).
 
 ### Limitations:
-While Segment Trees provide efficient query and update operations, their complexity can increase with more complex operations and they require significant space to store the tree structure.
+It conducts a blind search, which can take a while.
+Because it is unable to handle negative edges, acyclic graphs may arise in which the shortest path may not always be found.
 
 ### 5. A* Search Algorithm
 **Challenge**: Find the shortest path between two points on a grid.  
 **Google Relevance**: Crucial for pathfinding in Google Maps and optimizing search algorithms.  
 **Algorithm**: A* Search.
+<div style="text-align:center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Astarpathfinding.gif" alt="A* Algorithm Animation" />
+</div>
 
 **Code**: [A* Search Algorithm](AStarSearch/a_star_search.cpp)
 
 ### Explanation:
-To discover the shortest path in weighted graphs, one graph traversal and pathfinding algorithm called A* (A-star) is employed. To increase efficiency, it blends heuristics with the advantages of Dijkstra's algorithm. While A* is full and optimal, its high space complexity renders it less useful for travel-routing systems as compared to memory-bounded techniques or algorithms with pre-processed graphs. Despite these drawbacks, the 1968 design by Peter Hart, Nils Nilsson, and Bertram Raphael is nevertheless very successful in many situations.
+The graph traversal and pathfinding algorithm A* (A-star) is renowned for its efficiency, completeness, and optimality. Using heuristics, it discovers the shortest path between a source node and a goal node in a weighted graph, outperforming Dijkstra's algorithm in the process. Although pre-processing algorithms and memory-bounded techniques can surpass A*, it is still effective in many cases. A*, which was created in 1968 by Peter Hart, Nils Nilsson, and Bertram Raphael, differs from Dijkstra's algorithm in that it aims to achieve a certain objective instead of creating a shortest-path tree to every node.
 
 ### Limitations:
-The algorithm's performance heavily depends on the accuracy of the heuristic function. In the worst case, its time and space complexity can be exponential (O(b^d)).
+One drawback of A* is that in some cases, particularly when the search space is wide and there are many viable paths, it might be computationally expensive.
+The algorithm could use a lot of processor and memory power.
+A further drawback is that A* is very dependent on the heuristic function's quality. The performance and optimality of the algorithm may be jeopardised if the heuristic is ill-conceived or fails to provide an accurate assessment of the distance to the objective.
+Furthermore, A* might have trouble with some kinds of graphs or search spaces that have erratic or irregular structures.
 
 ### 8. KD Tree for Nearest Neighbor Search
 **Challenge**: Efficiently find the nearest neighbor to a point in a multi-dimensional space.  
