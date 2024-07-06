@@ -175,12 +175,26 @@ A compressed trie that holds all of a text's suffixes as keys and their position
   <img src="img/Depth-first-tree.svg.png" alt="DFS" />
 </div>
 **Code**: [Depth first search](GraphAlgorithms/dfs.cpp)
+
 ### Explanation:
 An approach for navigating or searching tree or graph data structures is called depth-first search (DFS). Starting at the root node (assuming, in the case of a graph, an arbitrary node), the method proceeds as far as it can along each branch before turning around. To aid in graph backtracking, more memory—typically in the form of a stack—is required to record the nodes that have been found thus far along a given branch.
 The 19th-century French mathematician Charles Pierre Trémaux studied a variation of depth-first search as a maze-solving technique.
 
 ### Limitations:
 Even in a limited graph, the primary drawback of Depth-First Search (DFS) is the possibility of endlessly examining the left-most path. In order to lessen this, a cutoff depth that ideally matches the solution depth might be applied; however, this number is frequently unknown in advance. A cutoff set too high could result in a large increase in execution time and possibly a less-than-ideal first solution, while a cutoff set too low could prevent DFS from finding a solution at all. Therefore, in the event that there are several solutions, DFS cannot ensure that it will locate the minimal solution.
+
+### 9. Breadth-First Search (BFS)
+**Challenge**: Traverse or search through graph or tree data structures level by level.  
+**Google Relevance**: Vital for web crawling, shortest path finding in unweighted graphs, and peer-to-peer networking.  
+**Algorithm**: Breadth-First Search (BFS).
+**Code**: [Breadth first search](GraphAlgorithms/bfs.cpp)
+### Explanation:
+A tree and graph traversal technique called Breadth-First Search (BFS) uses additional memory in the form of a queue to track child nodes as it searches every node at the current depth before going on to the next level. It is useful for issues like chess endgames since it promises to discover a solution if one exists. While BFS uses more memory, it systematically explores all possibilities, unlike Depth-First Search (DFS), which might become stranded in infinite branches. BFS eliminates the need for repetitive searches in theoretical analysis and works with both directed and undirected graphs. BFS was first created by Konrad Zuse in 1945 and then reimagined by Edward F. Moore in 1959. Since then, it has been used for a variety of purposes, including wire routing, which C. Y. Lee developed in 1961.
+
+### Limitations:
+It requires a lot of memory because it must maintain track of every node in the search tree.
+Since it grows every node at each level before going to the next, it could be a little slow at times.
+Because it doesn't look down every avenue in the search tree, it occasionally finds less-than-ideal answers.
 
 ### 8. KD Tree for Nearest Neighbor Search
 **Challenge**: Efficiently find the nearest neighbor to a point in a multi-dimensional space.  
