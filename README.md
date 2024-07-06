@@ -174,7 +174,7 @@ A compressed trie that holds all of a text's suffixes as keys and their position
 <div style="text-align:center">
   <img src="img/Suffix_tree_BANANA.svg.png" alt="Suffix Tree" />
 </div>
-**Code**: [Depth first search](DataStructures/trie.cpp)
+**Code**: [Depth first search](GraphAlgorithms/dfs.cpp)
 ### Explanation:
 An approach for navigating or searching tree or graph data structures is called depth-first search (DFS). Starting at the root node (assuming, in the case of a graph, an arbitrary node), the method proceeds as far as it can along each branch before turning around. To aid in graph backtracking, more memory—typically in the form of a stack—is required to record the nodes that have been found thus far along a given branch.
 The 19th-century French mathematician Charles Pierre Trémaux studied a variation of depth-first search as a maze-solving technique.
