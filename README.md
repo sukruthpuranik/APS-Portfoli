@@ -167,6 +167,21 @@ Not Conventional. The majority of languages lack an integrated trie implementati
 ### Explanation:
 A compressed trie that holds all of a text's suffixes as keys and their positions as values is called a suffix tree, sometimes known as a PAT tree. For a given string \( S \), the construction of a suffix tree requires linear time and space in relation to the length of \( S \). Finding approximation matches, matching regular expression patterns, and discovering substrings may all be done quickly with the help of suffix trees. They also give a solution to the longest common substring problem in linear time. But suffix trees take quite a lot more space in storage than the string itself does.
 
+### 8. Depth-First Search (DFS)
+**Challenge**: Traverse or search through graph or tree data structures.  
+**Google Relevance**: Crucial for web crawling, detecting cycles, and pathfinding in various applications.  
+**Algorithm**: Depth-First Search (DFS).
+<div style="text-align:center">
+  <img src="img/Suffix_tree_BANANA.svg.png" alt="Suffix Tree" />
+</div>
+**Code**: [Depth first search](DataStructures/trie.cpp)
+### Explanation:
+An approach for navigating or searching tree or graph data structures is called depth-first search (DFS). Starting at the root node (assuming, in the case of a graph, an arbitrary node), the method proceeds as far as it can along each branch before turning around. To aid in graph backtracking, more memory—typically in the form of a stack—is required to record the nodes that have been found thus far along a given branch.
+The 19th-century French mathematician Charles Pierre Trémaux studied a variation of depth-first search as a maze-solving technique.
+
+### Limitations:
+Even in a limited graph, the primary drawback of Depth-First Search (DFS) is the possibility of endlessly examining the left-most path. In order to lessen this, a cutoff depth that ideally matches the solution depth might be applied; however, this number is frequently unknown in advance. A cutoff set too high could result in a large increase in execution time and possibly a less-than-ideal first solution, while a cutoff set too low could prevent DFS from finding a solution at all. Therefore, in the event that there are several solutions, DFS cannot ensure that it will locate the minimal solution.
+
 ### 8. KD Tree for Nearest Neighbor Search
 **Challenge**: Efficiently find the nearest neighbor to a point in a multi-dimensional space.  
 **Google Relevance**: Crucial for geographical data handling and search query optimization.  
