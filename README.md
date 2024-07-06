@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-    color: #FFD700 ; /* Dodger Blue */
+    color: #FFA500 ; /* Dodger Blue */
 }
 
 h3 {
