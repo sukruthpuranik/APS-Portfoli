@@ -149,7 +149,7 @@ Furthermore, A* might have trouble with some kinds of graphs or search spaces th
 **Code**: [Trie Data Structure Algorithm](DataStructures/trie.cpp)
 
 ### Explanation:
-A trie, pronounced , is a k-ary search tree used to find certain keys inside a collection, usually strings. It is sometimes referred to as a digital tree or prefix tree. In contrast to binary search trees, attempts use the positions of the nodes to define the keys and distribute the value of each key throughout the data structure. Every child of a node has a root that represents an empty string, and all children share a common prefix linked to the parent node. Radix trees can be used to optimise attempts, and different ordered lists, including binary or integer data, can be used to key the tries. The huge space needs of naive trie structures are addressed by specialised implementations such as compressed tries.
+A trie is a k-ary search tree used to find certain keys inside a collection, usually strings. It is sometimes referred to as a digital tree or prefix tree. In contrast to binary search trees, attempts use the positions of the nodes to define the keys and distribute the value of each key throughout the data structure. Every child of a node has a root that represents an empty string, and all children share a common prefix linked to the parent node. Radix trees can be used to optimise attempts, and different ordered lists, including binary or integer data, can be used to key the tries. The huge space needs of naive trie structures are addressed by specialised implementations such as compressed tries.
 
 ### Limitations:
 Space-Inefficient in most cases. When compared to storing strings in a set, tries rarely save space.
