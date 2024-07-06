@@ -172,7 +172,7 @@ A compressed trie that holds all of a text's suffixes as keys and their position
 **Google Relevance**: Crucial for web crawling, detecting cycles, and pathfinding in various applications.  
 **Algorithm**: Depth-First Search (DFS).
 <div style="text-align:center">
-  <img src="img/Suffix_tree_BANANA.svg.png" alt="Suffix Tree" />
+  <img src="img/Depth-first-tree.svg.png" alt="DFS" />
 </div>
 **Code**: [Depth first search](GraphAlgorithms/dfs.cpp)
 ### Explanation:
