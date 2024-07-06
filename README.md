@@ -139,6 +139,23 @@ The algorithm could use a lot of processor and memory power.
 A further drawback is that A* is very dependent on the heuristic function's quality. The performance and optimality of the algorithm may be jeopardised if the heuristic is ill-conceived or fails to provide an accurate assessment of the distance to the objective.
 Furthermore, A* might have trouble with some kinds of graphs or search spaces that have erratic or irregular structures.
 
+### 6. Trie Data Structure
+**Challenge**: Efficiently store and retrieve keys in a dataset of strings.  
+**Google Relevance**: Essential for autocomplete features, search engine indexing, and IP routing.  
+**Algorithm**: Trie Data Structure.
+<div style="text-align:center">
+  <img src="img/WebCrawlerArchitecture.svg.png" alt="Trie" />
+</div>
+**Code**: [Trie Data Structure Algorithm](DataStructures/trie.cpp)
+
+### Explanation:
+A trie, pronounced , is a k-ary search tree used to find certain keys inside a collection, usually strings. It is sometimes referred to as a digital tree or prefix tree. In contrast to binary search trees, attempts use the positions of the nodes to define the keys and distribute the value of each key throughout the data structure. Every child of a node has a root that represents an empty string, and all children share a common prefix linked to the parent node. Radix trees can be used to optimise attempts, and different ordered lists, including binary or integer data, can be used to key the tries. The huge space needs of naive trie structures are addressed by specialised implementations such as compressed tries.
+
+### Limitations:
+Space-Inefficient in most cases. When compared to storing strings in a set, tries rarely save space.
+A string's ASCII characters are each one byte. A trie node's link is a pointer to an address, which is eight bytes on a 64-bit system. Therefore, saving money by storing fewer characters is frequently outweighed by the overhead of connecting nodes.
+Not Conventional. The majority of languages lack an integrated trie implementation. It will be up to you to put one into practice.
+
 ### 8. KD Tree for Nearest Neighbor Search
 **Challenge**: Efficiently find the nearest neighbor to a point in a multi-dimensional space.  
 **Google Relevance**: Crucial for geographical data handling and search query optimization.  
@@ -168,18 +185,6 @@ The Union-Find algorithm efficiently manages and queries connected components in
 ### Limitations:
 The algorithm has nearly constant time complexity per operation, but the Inverse Ackermann function, though very slow-growing, might still impact performance slightly in extreme cases.
 
-### 10. Trie Data Structure
-**Challenge**: Efficiently store and retrieve keys in a dataset of strings.  
-**Google Relevance**: Essential for autocomplete features, search engine indexing, and IP routing.  
-**Algorithm**: Trie Data Structure.
-
-**Code**: [Trie Data Structure Algorithm](DataStructures/trie.cpp)
-
-### Explanation:
-The Trie data structure is used to efficiently store and retrieve keys in a dataset of strings. This is crucial for Google's autocomplete features, search engine indexing, and IP routing.
-
-### Limitations:
-While Tries offer efficient search operations, they have a high space complexity due to storing each character of every word.
 
 ### 11. Fermat's Little Theorem
 **Challenge**: Efficiently compute modular inverses for cryptographic applications.  
