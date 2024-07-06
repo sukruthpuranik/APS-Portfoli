@@ -144,7 +144,7 @@ Furthermore, A* might have trouble with some kinds of graphs or search spaces th
 **Google Relevance**: Essential for autocomplete features, search engine indexing, and IP routing.  
 **Algorithm**: Trie Data Structure.
 <div style="text-align:center">
-  <img src="img/WebCrawlerArchitecture.svg.png" alt="Trie" />
+  <img src="img/Trie_example.svg.png" alt="Trie" />
 </div>
 **Code**: [Trie Data Structure Algorithm](DataStructures/trie.cpp)
 
