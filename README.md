@@ -156,6 +156,17 @@ Space-Inefficient in most cases. When compared to storing strings in a set, trie
 A string's ASCII characters are each one byte. A trie node's link is a pointer to an address, which is eight bytes on a 64-bit system. Therefore, saving money by storing fewer characters is frequently outweighed by the overhead of connecting nodes.
 Not Conventional. The majority of languages lack an integrated trie implementation. It will be up to you to put one into practice.
 
+### 7. Suffix Tree
+**Challenge**: Efficiently indexes all suffixes of a given text to enable fast substring searches and other string-related operations. 
+**Google Relevance**: Crucial for text indexing,detecting repeated substrings in search engines.  
+**Algorithm**: Suffix Tree.
+<div style="text-align:center">
+  <img src="img/Trie_example.svg.png" alt="Suffix Tree" />
+</div>
+**Code**: [Trie Data Structure Algorithm](DataStructures/trie.cpp)
+### Explanation:
+A compressed trie that holds all of a text's suffixes as keys and their positions as values is called a suffix tree, sometimes known as a PAT tree. For a given string \( S \), the construction of a suffix tree requires linear time and space in relation to the length of \( S \). Finding approximation matches, matching regular expression patterns, and discovering substrings may all be done quickly with the help of suffix trees. They also give a solution to the longest common substring problem in linear time. But suffix trees take quite a lot more space in storage than the string itself does.
+
 ### 8. KD Tree for Nearest Neighbor Search
 **Challenge**: Efficiently find the nearest neighbor to a point in a multi-dimensional space.  
 **Google Relevance**: Crucial for geographical data handling and search query optimization.  
