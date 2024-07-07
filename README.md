@@ -19,6 +19,16 @@ body {
     padding: 20px;
     border-radius: 10px;
 }
+.styled-subheading {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    color: #990033; /* Dark red color for contrast */
+    text-align: left; /* Align the heading to the left */
+    margin-top: 30px;
+    text-shadow: 1px 1px 3px rgba(153, 0, 51, 0.3); /* Dark red shadow */
+    padding: 10px;
+    border-bottom: 2px solid #990033; /* Underline */
+}
 h1 {
     color: #FF0000; /* Coral */
 }
@@ -44,7 +54,7 @@ p {
 ![GitHub top language](https://img.shields.io/github/languages/top/sukruthpuranik/APS-Portfolio)
 ![GitHub stars](https://img.shields.io/github/stars/sukruthpuranik/APS-Portfolio?style=social)
 
-## Table of Contents
+<h2 class="styled-subheading">Table of Contents</h2>
 *. [📋 Introduction](#introduction)
 *. [📊 Business Cases](#business-cases)
 *. [💻 Codes](#codes)
