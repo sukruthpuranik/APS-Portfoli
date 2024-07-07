@@ -60,7 +60,7 @@ p {
 *. [💻 Codes](#codes)
 *. [🔚 Conclusion](#conclusion)
 
-## 📋 Introduction
+<h2 class="styled-subheading">Introduction</h2>
 
 ### Domain Overview
 <div style="text-align:center">
@@ -80,7 +80,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 - Doe, A. (2019). "Market Analysis of Algorithmic Applications." *Journal of Technology and Innovation*.
 - Encyclopaedia Britannica. (2023). "Google Inc."
   
-## 📊 Business Cases
+<h2 class="styled-subheading">Business Cases</h2>
 
 ### 1. PageRank Algorithm
 **Challenge**: Rank web pages based on their importance and relevance.  
@@ -288,6 +288,6 @@ By rearranging a character string into runs of related characters, the Burrows�
 ### Explanation:
 A disjoint-set data structure, sometimes referred to as a union-find or merge-find set in computer science, is a data structure that holds a collection of disjoint sets and facilitates operations such as adding new sets, merging sets, and locating a representative member of a set. Frequently executed as a disjoint-set forest, it executes union operations and finds in nearly constant amortised time. For \(m\) operations on \(n\) nodes, the overall time complexity is \(O(m \alpha(n))\), where \(\alpha(n)\) represents the inverse Ackermann function. This structure is utilised in symbolic computation, compilers, especially for register allocation problems, and is essential in methods like as Kruskal's for determining minimal spanning trees.
 
-## 🔚 Conclusion
+<h2 class="styled-subheading">Conclusion</h2>
 This portfolio highlights the importance of algorithmic problem-solving in various real-world applications at Google. By leveraging efficient algorithms, we can enhance performance, optimize resources, and drive innovation across different domains. Each algorithm discussed plays a critical role in addressing specific challenges, from search engine optimization to secure communications.
 
