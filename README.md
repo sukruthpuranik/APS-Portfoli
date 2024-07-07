@@ -137,9 +137,6 @@ The auxiliary space complexity of Dijkstra's algorithm is typically O(V) to O(E 
 **Google Relevance**: Crucial for pathfinding in Google Maps and optimizing search algorithms.  
 **Algorithm**: A* Search.
 
-The time complexity of A* depends on the heuristic. In the worst case of an unbounded search space, the number of nodes expanded is exponential in the depth of the solution (the shortest path) d: O(bd), where b is the branching factor (the average number of successors per state).
-The space complexity of standard A* is always O(b^d), since we need to track every node in the graph at all times, even ones that we've never visited and are never going to.
-
 <div style="text-align:center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Astarpathfinding.gif" alt="A* Algorithm Animation" />
 </div>
@@ -155,12 +152,14 @@ The algorithm could use a lot of processor and memory power.
 A further drawback is that A* is very dependent on the heuristic function's quality. The performance and optimality of the algorithm may be jeopardised if the heuristic is ill-conceived or fails to provide an accurate assessment of the distance to the objective.
 Furthermore, A* might have trouble with some kinds of graphs or search spaces that have erratic or irregular structures.
 
+### Complexity:
+The time complexity of A* depends on the heuristic. In the worst case of an unbounded search space, the number of nodes expanded is exponential in the depth of the solution (the shortest path) d: O(bd), where b is the branching factor (the average number of successors per state).
+The space complexity of standard A* is always O(b^d), since we need to track every node in the graph at all times, even ones that we've never visited and are never going to.
+
 ### 6. Trie Data Structure
 **Challenge**: Efficiently store and retrieve keys in a dataset of strings.  
 **Google Relevance**: Essential for autocomplete features, search engine indexing, and IP routing.  
 **Algorithm**: Trie Data Structure.
-The time complexity for building a Trie data structure is O(N * avgL), where 'N' is the number of strings we want to insert in Trie and 'avgL' is the average length of 'N' strings.
-The space complexity of the trie depends on the number of nodes present in the trie. A trie with N nodes will need O(N*k) space due to the pointers in each node, where k is the total number of unique characters in the alphabet.
 
 <div style="text-align:center">
   <img src="img/Trie_example.svg.png" alt="Trie" />
@@ -176,6 +175,10 @@ Space-Inefficient in most cases. When compared to storing strings in a set, trie
 A string's ASCII characters are each one byte. A trie node's link is a pointer to an address, which is eight bytes on a 64-bit system. Therefore, saving money by storing fewer characters is frequently outweighed by the overhead of connecting nodes.
 Not Conventional. The majority of languages lack an integrated trie implementation. It will be up to you to put one into practice.
 
+### Complexity:
+The time complexity for building a Trie data structure is O(N * avgL), where 'N' is the number of strings we want to insert in Trie and 'avgL' is the average length of 'N' strings.
+The space complexity of the trie depends on the number of nodes present in the trie. A trie with N nodes will need O(N*k) space due to the pointers in each node, where k is the total number of unique characters in the alphabet.
+
 ### 7. Suffix Tree
 **Challenge**: Efficiently indexes all suffixes of a given text to enable fast substring searches and other string-related operations. 
 **Google Relevance**: Crucial for text indexing,detecting repeated substrings in search engines.  
@@ -183,18 +186,18 @@ Not Conventional. The majority of languages lack an integrated trie implementati
 <div style="text-align:center">
   <img src="img/Suffix_tree_BANANA.svg.png" alt="Suffix Tree" />
 </div>
-Suffix links reduce the time of processing each phase to O(N), as the number of nodes present in the suffix tree is of order N. Thus the overall time complexity of building a suffix tree is reduced to O(N²).
-The space complexity for this algorithm is O(M2).
 
 ### Explanation:
 A compressed trie that holds all of a text's suffixes as keys and their positions as values is called a suffix tree, sometimes known as a PAT tree. For a given string \( S \), the construction of a suffix tree requires linear time and space in relation to the length of \( S \). Finding approximation matches, matching regular expression patterns, and discovering substrings may all be done quickly with the help of suffix trees. They also give a solution to the longest common substring problem in linear time. But suffix trees take quite a lot more space in storage than the string itself does.
+
+### Complexity:
+Suffix links reduce the time of processing each phase to O(N), as the number of nodes present in the suffix tree is of order N. Thus the overall time complexity of building a suffix tree is reduced to O(N²).
+The space complexity for this algorithm is O(M2).
 
 ### 8. Depth-First Search (DFS)
 **Challenge**: Traverse or search through graph or tree data structures.  
 **Google Relevance**: Crucial for web crawling, detecting cycles, and pathfinding in various applications.  
 **Algorithm**: Depth-First Search (DFS).
-The time complexity of DFS is O(V + E), where V represents the number of vertices and E represents the number of edges in the graph.
-The space complexity of DFS is O(V), where V represents the number of vertices in the graph.
 
 <div style="text-align:center">
   <img src="img/Depth-first-tree.svg.png" alt="DFS" />
@@ -209,11 +212,15 @@ The 19th-century French mathematician Charles Pierre Trémaux studied a variatio
 ### Limitations:
 Even in a limited graph, the primary drawback of Depth-First Search (DFS) is the possibility of endlessly examining the left-most path. In order to lessen this, a cutoff depth that ideally matches the solution depth might be applied; however, this number is frequently unknown in advance. A cutoff set too high could result in a large increase in execution time and possibly a less-than-ideal first solution, while a cutoff set too low could prevent DFS from finding a solution at all. Therefore, in the event that there are several solutions, DFS cannot ensure that it will locate the minimal solution.
 
+### Complexity:
+The time complexity of DFS is O(V + E), where V represents the number of vertices and E represents the number of edges in the graph.
+The space complexity of DFS is O(V), where V represents the number of vertices in the graph.
+
 ### 9. Breadth-First Search (BFS)
 **Challenge**: Traverse or search through graph or tree data structures level by level.  
 **Google Relevance**: Vital for web crawling, shortest path finding in unweighted graphs, and peer-to-peer networking.  
 **Algorithm**: Breadth-First Search (BFS).
-The time complexity of the BFS algorithm is represented in the form of O(V + E), where V is the number of nodes and E is the number of edges. The space complexity of the algorithm is O(V).
+
 **Code**: [Breadth first search](GraphAlgorithms/bfs.cpp)
 ### Explanation:
 A tree and graph traversal technique called Breadth-First Search (BFS) uses additional memory in the form of a queue to track child nodes as it searches every node at the current depth before going on to the next level. It is useful for issues like chess endgames since it promises to discover a solution if one exists. While BFS uses more memory, it systematically explores all possibilities, unlike Depth-First Search (DFS), which might become stranded in infinite branches. BFS eliminates the need for repetitive searches in theoretical analysis and works with both directed and undirected graphs. BFS was first created by Konrad Zuse in 1945 and then reimagined by Edward F. Moore in 1959. Since then, it has been used for a variety of purposes, including wire routing, which C. Y. Lee developed in 1961.
@@ -223,13 +230,15 @@ It requires a lot of memory because it must maintain track of every node in the 
 Since it grows every node at each level before going to the next, it could be a little slow at times.
 Because it doesn't look down every avenue in the search tree, it occasionally finds less-than-ideal answers.
 
+### Complexity:
+The time complexity of the BFS algorithm is represented in the form of O(V + E), where V is the number of nodes and E is the number of edges. The space complexity of the algorithm is O(V).
+
 ### 10. Binary Tree
 **Challenge**: Efficiently store and organize hierarchical data structures.  
 **Google Relevance**: Used in database indexing, memory management, and maintaining a sorted sequence of data.  
 **Algorithm**: Binary Tree.
 **Description**: A binary tree is a data structure in which each node has at most two children, referred to as the left child and the right child. It is used in various applications like binary search trees and heaps.
-In general, the time complexity is O(h) where h is the height of BST. Insertion: For inserting element 0, it must be inserted as the left child of 1. Therefore, we need to traverse all elements (in order 3, 2, 1) to insert 0 which has the worst-case complexity of O(n). In general, the time complexity is O(h).
-In the average case (and best case) - assuming a tree that's fairly well balanced, then the height would be about log₂ N . Hence, space complexity would be O(log₂ N) or simply O(lg N) In a worst case scenario, where the tree is just a sorted linked list branching right with incrementing values, then O(N) as worst case.
+
 **Code**: [Binary tree](GraphAlgorithms/bt.cpp)
 <div style="text-align:center">
   <img src="img/Binary_tree_v2.svg.png" alt="Binary tree" />
@@ -242,6 +251,10 @@ A binary tree is a type of data structure used in computer science in which each
 **Restricted structure**: The utility of binary trees in some applications may be limited by the fact that each node can only have two children. For instance, a different tree layout might be more appropriate if a tree has more than two child nodes per node.
 **Unbalanced trees**: Inefficient search operations can result from unbalanced binary trees, in which one subtree is noticeably larger than the other. This can happen if the data is put in a non-random order or if the tree is not correctly balanced.
 Comparing binary trees to other data structures, it can be observed that they exhibit space inefficiency. This is due to the fact that every node needs two child pointers, which, for big trees, can result in a substantial memory burden.
+
+### Complexity:
+In general, the time complexity is O(h) where h is the height of BST. Insertion: For inserting element 0, it must be inserted as the left child of 1. Therefore, we need to traverse all elements (in order 3, 2, 1) to insert 0 which has the worst-case complexity of O(n). In general, the time complexity is O(h).
+In the average case (and best case) - assuming a tree that's fairly well balanced, then the height would be about log₂ N . Hence, space complexity would be O(log₂ N) or simply O(lg N) In a worst case scenario, where the tree is just a sorted linked list branching right with incrementing values, then O(N) as worst case.
 
 ### 11. Burrows-Wheeler Transform (BWT)
 **Challenge**: Transform data to improve compression efficiency.  
