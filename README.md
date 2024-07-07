@@ -45,12 +45,10 @@ p {
 ![GitHub stars](https://img.shields.io/github/stars/sukruthpuranik/APS-Portfolio?style=social)
 
 ## Table of Contents
-1. [📋 Introduction](#introduction)
-2. [📊 Business Cases](#business-cases)
-3. [💻 Codes](#codes)
-4. [📈 Performance Analysis](#performance-analysis)
-5. [🔚 Conclusion](#conclusion)
-6. [📚 References](#references)
+*. [📋 Introduction](#introduction)
+*. [📊 Business Cases](#business-cases)
+*. [💻 Codes](#codes)
+*. [🔚 Conclusion](#conclusion)
 
 ## 📋 Introduction
 
@@ -117,6 +115,9 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 **Google Relevance**: Essential for routing and navigation systems like Google Maps.
 **Algorithm**: Dijkstra's Algorithm uses a priority queue to efficiently find the shortest path from a source node to all other nodes in a graph.
 
+The time complexity of Dijkstra's Algorithm is typically O(V2) when using a simple array implementation or O((V + E) log V) with a priority queue, where V represents the number of vertices and E represents the number of edges in the graph.
+The auxiliary space complexity of Dijkstra's algorithm is typically O(V) to O(E + V), where V is the number of vertices and E is the number of edges in the graph, depending on the implementation and data structures used.
+
 <div style="text-align:center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif" alt="Dijkstra's Algorithm Animation" />
 </div>
@@ -134,6 +135,10 @@ Because it is unable to handle negative edges, acyclic graphs may arise in which
 **Challenge**: Find the shortest path between two points on a grid.  
 **Google Relevance**: Crucial for pathfinding in Google Maps and optimizing search algorithms.  
 **Algorithm**: A* Search.
+
+The time complexity of A* depends on the heuristic. In the worst case of an unbounded search space, the number of nodes expanded is exponential in the depth of the solution (the shortest path) d: O(bd), where b is the branching factor (the average number of successors per state).
+The space complexity of standard A* is always O(b^d), since we need to track every node in the graph at all times, even ones that we've never visited and are never going to.
+
 <div style="text-align:center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Astarpathfinding.gif" alt="A* Algorithm Animation" />
 </div>
@@ -153,9 +158,13 @@ Furthermore, A* might have trouble with some kinds of graphs or search spaces th
 **Challenge**: Efficiently store and retrieve keys in a dataset of strings.  
 **Google Relevance**: Essential for autocomplete features, search engine indexing, and IP routing.  
 **Algorithm**: Trie Data Structure.
+The time complexity for building a Trie data structure is O(N * avgL), where 'N' is the number of strings we want to insert in Trie and 'avgL' is the average length of 'N' strings.
+The space complexity of the trie depends on the number of nodes present in the trie. A trie with N nodes will need O(N*k) space due to the pointers in each node, where k is the total number of unique characters in the alphabet.
+
 <div style="text-align:center">
   <img src="img/Trie_example.svg.png" alt="Trie" />
 </div>
+
 **Code**: [Trie Data Structure Algorithm](DataStructures/trie.cpp)
 
 ### Explanation:
@@ -173,6 +182,8 @@ Not Conventional. The majority of languages lack an integrated trie implementati
 <div style="text-align:center">
   <img src="img/Suffix_tree_BANANA.svg.png" alt="Suffix Tree" />
 </div>
+Suffix links reduce the time of processing each phase to O(N), as the number of nodes present in the suffix tree is of order N. Thus the overall time complexity of building a suffix tree is reduced to O(N²).
+The space complexity for this algorithm is O(M2).
 
 ### Explanation:
 A compressed trie that holds all of a text's suffixes as keys and their positions as values is called a suffix tree, sometimes known as a PAT tree. For a given string \( S \), the construction of a suffix tree requires linear time and space in relation to the length of \( S \). Finding approximation matches, matching regular expression patterns, and discovering substrings may all be done quickly with the help of suffix trees. They also give a solution to the longest common substring problem in linear time. But suffix trees take quite a lot more space in storage than the string itself does.
@@ -181,9 +192,13 @@ A compressed trie that holds all of a text's suffixes as keys and their position
 **Challenge**: Traverse or search through graph or tree data structures.  
 **Google Relevance**: Crucial for web crawling, detecting cycles, and pathfinding in various applications.  
 **Algorithm**: Depth-First Search (DFS).
+The time complexity of DFS is O(V + E), where V represents the number of vertices and E represents the number of edges in the graph.
+The space complexity of DFS is O(V), where V represents the number of vertices in the graph.
+
 <div style="text-align:center">
   <img src="img/Depth-first-tree.svg.png" alt="DFS" />
 </div>
+
 **Code**: [Depth first search](GraphAlgorithms/dfs.cpp)
 
 ### Explanation:
@@ -197,6 +212,7 @@ Even in a limited graph, the primary drawback of Depth-First Search (DFS) is the
 **Challenge**: Traverse or search through graph or tree data structures level by level.  
 **Google Relevance**: Vital for web crawling, shortest path finding in unweighted graphs, and peer-to-peer networking.  
 **Algorithm**: Breadth-First Search (BFS).
+The time complexity of the BFS algorithm is represented in the form of O(V + E), where V is the number of nodes and E is the number of edges. The space complexity of the algorithm is O(V).
 **Code**: [Breadth first search](GraphAlgorithms/bfs.cpp)
 ### Explanation:
 A tree and graph traversal technique called Breadth-First Search (BFS) uses additional memory in the form of a queue to track child nodes as it searches every node at the current depth before going on to the next level. It is useful for issues like chess endgames since it promises to discover a solution if one exists. While BFS uses more memory, it systematically explores all possibilities, unlike Depth-First Search (DFS), which might become stranded in infinite branches. BFS eliminates the need for repetitive searches in theoretical analysis and works with both directed and undirected graphs. BFS was first created by Konrad Zuse in 1945 and then reimagined by Edward F. Moore in 1959. Since then, it has been used for a variety of purposes, including wire routing, which C. Y. Lee developed in 1961.
@@ -211,6 +227,8 @@ Because it doesn't look down every avenue in the search tree, it occasionally fi
 **Google Relevance**: Used in database indexing, memory management, and maintaining a sorted sequence of data.  
 **Algorithm**: Binary Tree.
 **Description**: A binary tree is a data structure in which each node has at most two children, referred to as the left child and the right child. It is used in various applications like binary search trees and heaps.
+In general, the time complexity is O(h) where h is the height of BST. Insertion: For inserting element 0, it must be inserted as the left child of 1. Therefore, we need to traverse all elements (in order 3, 2, 1) to insert 0 which has the worst-case complexity of O(n). In general, the time complexity is O(h).
+In the average case (and best case) - assuming a tree that's fairly well balanced, then the height would be about log₂ N . Hence, space complexity would be O(log₂ N) or simply O(lg N) In a worst case scenario, where the tree is just a sorted linked list branching right with incrementing values, then O(N) as worst case.
 **Code**: [Binary tree](GraphAlgorithms/bt.cpp)
 <div style="text-align:center">
   <img src="img/Binary_tree_v2.svg.png" alt="Binary tree" />
