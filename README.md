@@ -114,8 +114,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 **Challenge**: Find the shortest path in a graph with non-negative edge weights.
 **Google Relevance**: Essential for routing and navigation systems like Google Maps.
 **Algorithm**: Dijkstra's Algorithm uses a priority queue to efficiently find the shortest path from a source node to all other nodes in a graph.
-
-The time complexity of Dijkstra's Algorithm is typically O(V2) when using a simple array implementation or O((V + E) log V) with a priority queue, where V represents the number of vertices and E represents the number of edges in the graph.
+**Complexity**:The time complexity of Dijkstra's Algorithm is typically O(V2) when using a simple array implementation or O((V + E) log V) with a priority queue, where V represents the number of vertices and E represents the number of edges in the graph.
 The auxiliary space complexity of Dijkstra's algorithm is typically O(V) to O(E + V), where V is the number of vertices and E is the number of edges in the graph, depending on the implementation and data structures used.
 
 <div style="text-align:center">
