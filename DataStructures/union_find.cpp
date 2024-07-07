@@ -1,61 +1,100 @@
-#include <iostream>
-#include <vector>
-using namespace std;
+// C++ implementation of disjoint set 
 
-class UnionFind {
-public:
-    UnionFind(int size) : root(size), rank(size, 1) {
-        for (int i = 0; i < size; ++i) {
-            root[i] = i;
-        }
-    }
+#include <bits/stdc++.h> 
+using namespace std; 
 
-    int find(int x) {
-        if (x == root[x]) {
-            return x;
-        }
-        return root[x] = find(root[x]);
-    }
+class DisjSet { 
+	int *rank, *parent, n; 
 
-    void unionSet(int x, int y) {
-        int rootX = find(x);
-        int rootY = find(y);
-        if (rootX != rootY) {
-            if (rank[rootX] > rank[rootY]) {
-                root[rootY] = rootX;
-            } else if (rank[rootX] < rank[rootY]) {
-                root[rootX] = rootY;
-            } else {
-                root[rootY] = rootX;
-                rank[rootX] += 1;
-            }
-        }
-    }
+public: 
+	
+	// Constructor to create and 
+	// initialize sets of n items 
+	DisjSet(int n) 
+	{ 
+		rank = new int[n]; 
+		parent = new int[n]; 
+		this->n = n; 
+		makeSet(); 
+	} 
 
-    bool connected(int x, int y) {
-        return find(x) == find(y);
-    }
+	// Creates n single item sets 
+	void makeSet() 
+	{ 
+		for (int i = 0; i < n; i++) { 
+			parent[i] = i; 
+		} 
+	} 
 
-private:
-    vector<int> root;
-    vector<int> rank;
-};
+	// Finds set of given item x 
+	int find(int x) 
+	{ 
+		// Finds the representative of the set 
+		// that x is an element of 
+		if (parent[x] != x) { 
 
-int main() {
-    UnionFind uf(10);
-    uf.unionSet(1, 2);
-    uf.unionSet(2, 5);
-    uf.unionSet(5, 6);
-    uf.unionSet(6, 7);
-    uf.unionSet(3, 8);
-    uf.unionSet(8, 9);
+			// if x is not the parent of itself 
+			// Then x is not the representative of 
+			// his set, 
+			parent[x] = find(parent[x]); 
 
-    cout << uf.connected(1, 5) << endl; // true
-    cout << uf.connected(5, 7) << endl; // true
-    cout << uf.connected(4, 9) << endl; // false
+			// so we recursively call Find on its parent 
+			// and move i's node directly under the 
+			// representative of this set 
+		} 
 
-    uf.unionSet(9, 4);
-    cout << uf.connected(4, 9) << endl; // true
+		return parent[x]; 
+	} 
 
-    return 0;
-}
+	// Do union of two sets by rank represented 
+	// by x and y. 
+	void Union(int x, int y) 
+	{ 
+		// Find current sets of x and y 
+		int xset = find(x); 
+		int yset = find(y); 
+
+		// If they are already in same set 
+		if (xset == yset) 
+			return; 
+
+		// Put smaller ranked item under 
+		// bigger ranked item if ranks are 
+		// different 
+		if (rank[xset] < rank[yset]) { 
+			parent[xset] = yset; 
+		} 
+		else if (rank[xset] > rank[yset]) { 
+			parent[yset] = xset; 
+		} 
+
+		// If ranks are same, then increment 
+		// rank. 
+		else { 
+			parent[yset] = xset; 
+			rank[xset] = rank[xset] + 1; 
+		} 
+	} 
+}; 
+
+// Driver Code 
+int main() 
+{ 
+	
+	// Function Call 
+	DisjSet obj(5); 
+	obj.Union(0, 2); 
+	obj.Union(4, 2); 
+	obj.Union(3, 1); 
+	
+	if (obj.find(4) == obj.find(0)) 
+		cout << "Yes\n"; 
+	else
+		cout << "No\n"; 
+	if (obj.find(1) == obj.find(0)) 
+		cout << "Yes\n"; 
+	else
+		cout << "No\n"; 
+
+	return 0; 
+} 
