@@ -93,7 +93,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
   
 <h2 class="styled-subheading">Business Cases</h2>
 
-### 1. <h3 class="styled-chotaheading">PageRank Algorithm</h3>
+### 1. PageRank Algorithm
 **Challenge**: Rank web pages based on their importance and relevance.  
 **Google Relevance**: Core to Google’s search engine, determining the order of search results.  
 **Algorithm**: PageRank uses a probability distribution to represent the likelihood of a person randomly clicking on links to arrive at a particular page.
@@ -110,7 +110,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 
 **KD Tree for Nearest Neighbour Search**: To manage and query the massive amounts of data involved in ranking web pages, PageRank might benefit from effective data structures like KD Trees.
 
-### 2.<h3 class="styled-chotaheading">Crawling</h3>
+### 2.Crawling
 **Challenges**:The task is to index web pages and browse the internet methodically. 
 **Google Relevance**: A vital component for obtaining online information and updating search engine indices.
 **Algorithm**: The process of web crawling uses either depth-first search (DFS) or breadth-first search (BFS) to navigate web pages.
@@ -118,7 +118,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
   <img src="img/WebCrawlerArchitecture.svg.png" alt="Crawling" />
 </div>
 
-### 3.<h3 class="styled-chotaheading">Indexing</h3>
+### 3.Indexing
 **Challenge**: Efficiently store and retrieve large amounts of web data.
 **Google Relevance**: Core to Google's ability to deliver fast and relevant search results.
 **Algorithm**: Inverted Indexing, a data structure that maps content to its location in a database.
@@ -131,7 +131,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 
 **Binary Trees**: Essential for preserving effective lookup structures during search engine indexing procedures, binary trees arrange indexed data for quick searching, insertion, and deletion operations.
 
-### 4.<h3 class="styled-chotaheading">Dijkstra's Algorithm</h3>
+### 4. Dijkstra's Algorithm
 **Challenge**: Find the shortest path in a graph with non-negative edge weights.  
 **Google Relevance**: Essential for routing and navigation systems like Google Maps.  
 **Algorithm**: Dijkstra's Algorithm uses a priority queue to efficiently find the shortest path from a source node to all other nodes in a graph.
