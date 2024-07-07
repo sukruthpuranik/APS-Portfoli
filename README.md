@@ -218,7 +218,7 @@ Comparing binary trees to other data structures, it can be observed that they ex
 **Challenge**: Transform data to improve compression efficiency.  
 **Google Relevance**: Utilized in data compression algorithms and search functionalities.  
 **Algorithm**: Burrows-Wheeler Transform (BWT).
-**Code**: [BWT](/bt.cpp)
+**Code**: [BWT](BWT/bwt.cpp)
 <div style="text-align:center">
   <img src="img/0_-Ufmqo3hFeaJMWUr.png" alt="BWT" />
 </div>
