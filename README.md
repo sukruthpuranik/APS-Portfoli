@@ -196,6 +196,20 @@ It requires a lot of memory because it must maintain track of every node in the 
 Since it grows every node at each level before going to the next, it could be a little slow at times.
 Because it doesn't look down every avenue in the search tree, it occasionally finds less-than-ideal answers.
 
+### 10. Binary Tree
+**Challenge**: Efficiently store and organize hierarchical data structures.  
+**Google Relevance**: Used in database indexing, memory management, and maintaining a sorted sequence of data.  
+**Algorithm**: Binary Tree.
+**Description**: A binary tree is a data structure in which each node has at most two children, referred to as the left child and the right child. It is used in various applications like binary search trees and heaps.
+
+### Explanation:
+A binary tree is a type of data structure used in computer science in which each node has two children, referred to as the left and right children, at most. A tuple (L, S, R) containing the root can be created recursively for this structure, where L and R are binary trees or empty sets. Binary trees can be thought of as directed or undirected graphs, and they are always rooted. Different definitions of them exist in mathematics; for example, in some cases, each non-leaf must have exactly two children. In computing, binary trees are used primarily for two purposes: first, as a representation of data with bifurcating structures, such as Huffman coding and cladograms, where node arrangement conveys important information; and second, for efficient searching and sorting via binary search trees and binary heaps, where node placement matters.
+
+### Limitations:
+**Restricted structure**: The utility of binary trees in some applications may be limited by the fact that each node can only have two children. For instance, a different tree layout might be more appropriate if a tree has more than two child nodes per node.
+**Unbalanced trees**: Inefficient search operations can result from unbalanced binary trees, in which one subtree is noticeably larger than the other. This can happen if the data is put in a non-random order or if the tree is not correctly balanced.
+Comparing binary trees to other data structures, it can be observed that they exhibit space inefficiency. This is due to the fact that every node needs two child pointers, which, for big trees, can result in a substantial memory burden.
+
 ### 8. KD Tree for Nearest Neighbor Search
 **Challenge**: Efficiently find the nearest neighbor to a point in a multi-dimensional space.  
 **Google Relevance**: Crucial for geographical data handling and search query optimization.  
