@@ -201,8 +201,9 @@ Because it doesn't look down every avenue in the search tree, it occasionally fi
 **Google Relevance**: Used in database indexing, memory management, and maintaining a sorted sequence of data.  
 **Algorithm**: Binary Tree.
 **Description**: A binary tree is a data structure in which each node has at most two children, referred to as the left child and the right child. It is used in various applications like binary search trees and heaps.
+**Code**: [Binary tree](GraphAlgorithms/bt.cpp)
 <div style="text-align:center">
-  <img src="img/Google-Emblem.jpg" alt="Binary tree" />
+  <img src="img/Binary_tree_v2.svg.png" alt="Binary tree" />
 </div>
 
 ### Explanation:
