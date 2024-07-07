@@ -8,7 +8,17 @@ body {
     font-family: Arial, sans-serif; /* Clean font */
 }
 
-
+.styled-heading {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    color: #990033; /* Dark red color for contrast */
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 5px rgba(153, 0, 51, 0.3); /* Dark red shadow */
+    background: linear-gradient(to right, #ff99cc, #ff6699); /* Complementary gradient */
+    padding: 20px;
+    border-radius: 10px;
+}
 h1 {
     color: #FF0000; /* Coral */
 }
@@ -28,7 +38,7 @@ p {
 }
 
 </style>
-<h1>Algorithmic Problem-Solving Portfolio</h1>
+<h1 class="styled-heading">Algorithmic Problem-Solving Portfolio</h1>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/sukruthpuranik/APS-Portfolio)
 ![GitHub top language](https://img.shields.io/github/languages/top/sukruthpuranik/APS-Portfolio)
