@@ -201,6 +201,9 @@ Because it doesn't look down every avenue in the search tree, it occasionally fi
 **Google Relevance**: Used in database indexing, memory management, and maintaining a sorted sequence of data.  
 **Algorithm**: Binary Tree.
 **Description**: A binary tree is a data structure in which each node has at most two children, referred to as the left child and the right child. It is used in various applications like binary search trees and heaps.
+<div style="text-align:center">
+  <img src="img/Google-Emblem.jpg" alt="Binary tree" />
+</div>
 
 ### Explanation:
 A binary tree is a type of data structure used in computer science in which each node has two children, referred to as the left and right children, at most. A tuple (L, S, R) containing the root can be created recursively for this structure, where L and R are binary trees or empty sets. Binary trees can be thought of as directed or undirected graphs, and they are always rooted. Different definitions of them exist in mathematics; for example, in some cases, each non-leaf must have exactly two children. In computing, binary trees are used primarily for two purposes: first, as a representation of data with bifurcating structures, such as Huffman coding and cladograms, where node arrangement conveys important information; and second, for efficient searching and sorting via binary search trees and binary heaps, where node placement matters.
@@ -210,84 +213,6 @@ A binary tree is a type of data structure used in computer science in which each
 **Unbalanced trees**: Inefficient search operations can result from unbalanced binary trees, in which one subtree is noticeably larger than the other. This can happen if the data is put in a non-random order or if the tree is not correctly balanced.
 Comparing binary trees to other data structures, it can be observed that they exhibit space inefficiency. This is due to the fact that every node needs two child pointers, which, for big trees, can result in a substantial memory burden.
 
-### 8. KD Tree for Nearest Neighbor Search
-**Challenge**: Efficiently find the nearest neighbor to a point in a multi-dimensional space.  
-**Google Relevance**: Crucial for geographical data handling and search query optimization.  
-**Algorithm**: KD Tree.
-
-**Code**: [KD Tree Algorithm](DataStructures/kd_tree.cpp)
-
-![KD Tree Diagram](https://example.com/kd_tree_diagram.png)
-### Explanation:
-The KD Tree algorithm is used for nearest neighbor searches in multi-dimensional spaces. This is useful for Google’s services like Maps and search query optimizations.
-
-### Limitations:
-Performance can degrade with high-dimensional data, as the algorithm may need to explore many nodes.
-
-**Code**: [KD Tree Algorithm](DataStructures/kd_tree.cpp)
-
-### 9. Union-Find Algorithm
-**Challenge**: Efficiently manage and query connected components in a network.  
-**Google Relevance**: Essential for managing large-scale networks like social networks and connectivity in distributed systems.  
-**Algorithm**: Union-Find with Path Compression and Union by Rank.
-
-**Code**: [Union-Find Algorithm](DataStructures/union_find.cpp)
-
-### Explanation:
-The Union-Find algorithm efficiently manages and queries connected components in a network. This is crucial for Google's services like managing social networks and ensuring connectivity in distributed systems.
-
-### Limitations:
-The algorithm has nearly constant time complexity per operation, but the Inverse Ackermann function, though very slow-growing, might still impact performance slightly in extreme cases.
-
-
-### 11. Fermat's Little Theorem
-**Challenge**: Efficiently compute modular inverses for cryptographic applications.  
-**Google Relevance**: Crucial for encryption algorithms and secure communication, such as SSL/TLS.  
-**Algorithm**: Fermat's Little Theorem.
-
-**Code**: [Fermat's Little Theorem Algorithm](Algorithms/fermats_little_theorem.cpp)
-
-### Explanation:
-Fermat's Little Theorem is used for efficiently computing modular inverses, essential for cryptographic applications like encryption algorithms and secure communication.
-
-### Limitations:
-The theorem is only applicable if the modulus \( p \) is a prime number, which restricts its use in certain situations.
-
-### 12. Segment Tree
-**Challenge**: Efficiently handle range query problems such as sum, minimum, or maximum over a segment of an array.  
-**Google Relevance**: Used in various applications where efficient data retrieval is necessary, such as Google Search and database systems.  
-**Algorithm**: Segment Tree.
-
-**Code**: [Segment Tree Algorithm](DataStructures/segment_tree.cpp)
-
-### Explanation:
-Segment Trees are used for efficiently handling range query problems, essential for various data retrieval tasks in Google services such as search engines and databases.
-
-### Limitations:
-While Segment Trees provide efficient query and update operations, their complexity can increase with more complex operations and they require significant space to store the tree structure.
-
-### 13. Johnson-Trotter Algorithm
-**Challenge**: Generate all permutations of a set.  
-**Google Relevance**: Useful for testing systems, shuffling search results, and combinatorial optimizations.  
-**Algorithm**: Johnson-Trotter Algorithm.
-## Performance Analysis
-
-| Algorithm                  | Time Complexity       | Space Complexity | Limitations                                         |
-|----------------------------|-----------------------|------------------|-----------------------------------------------------|
-| Repeated Substring Pattern | O(n^2)                | O(n)             | Performance may degrade for very large strings      |
-| Rod Cutting                | O(n^2)                | O(n)             | Inefficient for very large input sizes              |
-| Longest Common Substring   | O(m*n)                | O(m*n)           | Requires significant space for large input sizes    |
-| A* Search                  | O(b^d)                | O(b^d)           | Performance depends on heuristic accuracy           |
-| KD Tree                    | O(n log n) build, O(log n) search | O(n) | High-dimensional data can degrade performance        |
-| Union-Find                 | O(α(n)) per operation | O(n)             | α(n) is the Inverse Ackermann function, very slow-growing|
-| Trie                       | O(m) for insert/search| O(n*m)           | High space complexity due to storing all characters |
-| Segment Tree               | O(log n) for query/update | O(n)           | Complexity increases with more complex operations   |
-| Fermat's Little Theorem    | O(log p)              | O(1)             | Only applicable if p is a prime number              |
-| Binary Search Tree         | O(log n) average, O(n) worst-case | O(n) | Unbalanced trees can degrade performance            |
-| A* Search                  | O(b^d)                | O(b^d)           | Performance heavily depends on the heuristic used   |
-| Segment Tree               | O(log n) for query/update | O(n)           | Complexity increases with more complex operations   |
-
 ## 🔚 Conclusion
-
 This portfolio highlights the importance of algorithmic problem-solving in various real-world applications at Google. By leveraging efficient algorithms, we can enhance performance, optimize resources, and drive innovation across different domains. Each algorithm discussed plays a critical role in addressing specific challenges, from search engine optimization to secure communications.
 
