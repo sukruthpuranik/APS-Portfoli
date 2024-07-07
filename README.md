@@ -226,6 +226,11 @@ Comparing binary trees to other data structures, it can be observed that they ex
 ### Explanation:
 By rearranging a character string into runs of related characters, the Burrows–Wheeler transform (BWT), often called block-sorting compression, improves compressibility using methods including move-to-front transform and run-length encoding. The original string can be restored by just knowing the position of the first original character in this reversible alteration. Using merely computational cost, BWT enhances the effectiveness of text compression algorithms and is a component of data compression techniques such as bzip2. The BWT was developed at DEC Systems Research Centre in 1994 by Michael Burrows and David Wheeler. It is based on Wheeler's previous unpublished work from 1983 and may be effectively implemented for linear time complexity with a suffix array.
 
+### 12. Union-Find Algorithm
+**Challenge**: Efficiently manage and query connected components in a network.  
+**Google Relevance**: Essential for managing large-scale networks like social networks and ensuring connectivity in distributed systems.  
+**Algorithm**: Union-Find with Path Compression and Union by Rank.
+
 ## 🔚 Conclusion
 This portfolio highlights the importance of algorithmic problem-solving in various real-world applications at Google. By leveraging efficient algorithms, we can enhance performance, optimize resources, and drive innovation across different domains. Each algorithm discussed plays a critical role in addressing specific challenges, from search engine optimization to secure communications.
 
