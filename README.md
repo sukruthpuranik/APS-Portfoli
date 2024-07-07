@@ -240,7 +240,7 @@ By rearranging a character string into runs of related characters, the Burrowsâ€
 **Challenge**: Efficiently manage and query connected components in a network.  
 **Google Relevance**: Essential for managing large-scale networks like social networks and ensuring connectivity in distributed systems.  
 **Algorithm**: Union-Find with Path Compression and Union by Rank.
-**Code**: [BWT](BWT/bwt.cpp)
+**Code**: [Union Find](DataStructures/union_find.cpp)
 
 ### Explanation:
 A disjoint-set data structure, sometimes referred to as a union-find or merge-find set in computer science, is a data structure that holds a collection of disjoint sets and facilitates operations such as adding new sets, merging sets, and locating a representative member of a set. Frequently executed as a disjoint-set forest, it executes union operations and finds in nearly constant amortised time. For \(m\) operations on \(n\) nodes, the overall time complexity is \(O(m \alpha(n))\), where \(\alpha(n)\) represents the inverse Ackermann function. This structure is utilised in symbolic computation, compilers, especially for register allocation problems, and is essential in methods like as Kruskal's for determining minimal spanning trees.
