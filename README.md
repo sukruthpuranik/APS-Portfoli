@@ -220,7 +220,7 @@ Comparing binary trees to other data structures, it can be observed that they ex
 **Algorithm**: Burrows-Wheeler Transform (BWT).
 **Code**: [BWT](/bt.cpp)
 <div style="text-align:center">
-  <img src="img/Binary_tree_v2.svg.png" alt="BWT" />
+  <img src="img/0_-Ufmqo3hFeaJMWUr.png" alt="BWT" />
 </div>
 
 ### Explanation:
