@@ -111,8 +111,8 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 **Binary Trees**: Essential for preserving effective lookup structures during search engine indexing procedures, binary trees arrange indexed data for quick searching, insertion, and deletion operations.
 
 ### 4. Dijkstra’s Algorithm
-**Challenge**: Find the shortest path in a graph with non-negative edge weights.
-**Google Relevance**: Essential for routing and navigation systems like Google Maps.
+**Challenge**: Find the shortest path in a graph with non-negative edge weights.  
+**Google Relevance**: Essential for routing and navigation systems like Google Maps.  
 **Algorithm**: Dijkstra's Algorithm uses a priority queue to efficiently find the shortest path from a source node to all other nodes in a graph.
 
 <div style="text-align:center">
