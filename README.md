@@ -29,6 +29,17 @@ body {
     padding: 10px;
     border-bottom: 2px solid #990033; /* Underline */
 }
+.styled-chotaheading {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8em;
+    color: #663399; /* Dark purple color for contrast */
+    text-align: left; /* Align the heading to the left */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    border-left: 5px solid #663399; /* Left border for emphasis */
+    padding-left: 10px; /* Space between the text and the border */
+}
 h1 {
     color: #FF0000; /* Coral */
 }
@@ -62,27 +73,27 @@ p {
 
 <h2 class="styled-subheading">Introduction</h2>
 
-### Domain Overview
+<h3 class="styled-chotaheading">Domain Overview</h3>
 <div style="text-align:center">
   <img src="img/Google-Emblem.jpg" alt="Logo" />
 </div>
 Founded in 1998 by Sergey Brin and Larry Page, Google has grown from a search engine to a technology giant that offers more than 50 services and products, including email, online document creation and software for mobile devices. It became Alphabet Inc. in 2015. subsidiary. Google's innovative search technology based on website backlink tracking has enabled it to handle more than 70% of global search queries. The company's acquisition strategy, including the purchase of YouTube and Android, increased its dominance. Despite setbacks such as a failed attempt to enter the Chinese market, Google led the way in online advertising and maintained a strong presence in the market with products such as Gmail, Google Maps, Chrome and the Android operating system. In 2011, Google surpassed Apple's iOS in mobile operating system market share. Google+ tried to compete with Facebook in social networking, but it was canceled in 2019. Alphabet's restructuring was aimed at accelerating innovation, and Sundar Pichai was the CEO of both Google and Alphabet(Encyclopaedia Britannica, 2023).
 
-### Market Analysis
+<h3 class="styled-chotaheading">Market Analysis</h3>
 Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the global technology market. Its core business, search and advertising, generates most of its revenue, using extensive data collection and sophisticated algorithms to deliver precisely targeted ads. Google's advertising platforms such as Google Ads and YouTube have a significant market share due to strong user engagement and wide reach.Beyond advertising, Google has diversified its revenue through cloud services like Google Cloud, hardware products like Pixel phones and Nest smart home devices, and other businesses like Waymo in autonomous vehicles and Verily in life sciences. The company's focus on artificial intelligence and machine learning continues to drive innovation in its product lines and provide a competitive advantage in a rapidly evolving technology environment. Although Google faces regulatory challenges and competition from other technology giants, Google's strong financial performance and strategic investments ensure its sustainable growth..
-### Objectives
+
+<h3 class="styled-chotaheading">Objectives</h3>
 - Build a comprehensive set of algorithmic problems and solutions.
 - Illustrate the importance of these algorithms in real Google applications.
-- Performance analysis of each algorithm.
 
-### References
+<h3 class="styled-chotaheading">References</h3>
 - Smith, J. (2020). "The Role of Algorithms in Modern Technology." *IEEE Transactions on Computers*.
 - Doe, A. (2019). "Market Analysis of Algorithmic Applications." *Journal of Technology and Innovation*.
 - Encyclopaedia Britannica. (2023). "Google Inc."
   
 <h2 class="styled-subheading">Business Cases</h2>
 
-### 1. PageRank Algorithm
+### 1. <h3 class="styled-chotaheading">PageRank Algorithm</h3>
 **Challenge**: Rank web pages based on their importance and relevance.  
 **Google Relevance**: Core to Google’s search engine, determining the order of search results.  
 **Algorithm**: PageRank uses a probability distribution to represent the likelihood of a person randomly clicking on links to arrive at a particular page.
@@ -99,7 +110,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 
 **KD Tree for Nearest Neighbour Search**: To manage and query the massive amounts of data involved in ranking web pages, PageRank might benefit from effective data structures like KD Trees.
 
-### 2. Crawling
+### 2.<h3 class="styled-chotaheading">Crawling</h3>
 **Challenges**:The task is to index web pages and browse the internet methodically. 
 **Google Relevance**: A vital component for obtaining online information and updating search engine indices.
 **Algorithm**: The process of web crawling uses either depth-first search (DFS) or breadth-first search (BFS) to navigate web pages.
@@ -107,7 +118,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
   <img src="img/WebCrawlerArchitecture.svg.png" alt="Crawling" />
 </div>
 
-### 3. Indexing
+### 3.<h3 class="styled-chotaheading">Indexing</h3>
 **Challenge**: Efficiently store and retrieve large amounts of web data.
 **Google Relevance**: Core to Google's ability to deliver fast and relevant search results.
 **Algorithm**: Inverted Indexing, a data structure that maps content to its location in a database.
@@ -120,7 +131,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 
 **Binary Trees**: Essential for preserving effective lookup structures during search engine indexing procedures, binary trees arrange indexed data for quick searching, insertion, and deletion operations.
 
-### 4. Dijkstra’s Algorithm
+### 4.<h3 class="styled-chotaheading">Dijkstra's Algorithm</h3>
 **Challenge**: Find the shortest path in a graph with non-negative edge weights.  
 **Google Relevance**: Essential for routing and navigation systems like Google Maps.  
 **Algorithm**: Dijkstra's Algorithm uses a priority queue to efficiently find the shortest path from a source node to all other nodes in a graph.
