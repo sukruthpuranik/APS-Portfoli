@@ -64,6 +64,7 @@ p {
 ![GitHub last commit](https://img.shields.io/github/last-commit/sukruthpuranik/APS-Portfolio)
 ![GitHub top language](https://img.shields.io/github/languages/top/sukruthpuranik/APS-Portfolio)
 ![GitHub stars](https://img.shields.io/github/stars/sukruthpuranik/APS-Portfolio?style=social)
+[Link to my GitHub Repo](https://github.com/sukruthpuranik/APS-Portfolio/tree/main)
 
 <h2 class="styled-subheading">Table of Contents</h2>
 *. [📋 Introduction](#introduction)
