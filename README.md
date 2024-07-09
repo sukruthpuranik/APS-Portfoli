@@ -100,6 +100,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 - "A* search algorithm," *Wikipedia*. Available: https://en.wikipedia.org/wiki/A*_search_algorithm. [Accessed: 04-Jul-2024].
 - "Trie," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Trie. [Accessed: 04-Jul-2024].
 - "Suffix tree," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Suffix_tree. [Accessed: 04-Jul-2024].
+- "Depth-first search," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Depth-first_search. [Accessed: 04-Jul-2024].
 
 <h2 class="styled-subheading">Business Cases</h2>
 
@@ -251,6 +252,10 @@ The space complexity for this algorithm is O(M2).
 **Challenge**: Traverse or search through graph or tree data structures.  
 **Google Relevance**: Crucial for web crawling, detecting cycles, and pathfinding in various applications.  
 **Algorithm**: Depth-First Search (DFS).
+
+**Code**: [DFS Algorithm](GraphAlgorithms/dfs.cpp)
+
+**Reference**: "Depth-first search," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Depth-first_search. [Accessed: 04-Jul-2024].
 
 <div style="text-align:center">
   <img src="img/Depth-first-tree.svg.png" alt="DFS" />
