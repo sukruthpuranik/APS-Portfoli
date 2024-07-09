@@ -115,13 +115,16 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 
 **Reference**: "PageRank," *Wikipedia*, the free encyclopedia. [Online]. Available: https://en.wikipedia.org/wiki/PageRank#:~:text=PageRank%20(PR)%20is%20an%20algorithm,the%20importance%20of%20website%20pages. [Accessed: 04-Jul-2024].
 
-### 2.Crawling
-**Challenges**:The task is to index web pages and browse the internet methodically. 
-**Google Relevance**: A vital component for obtaining online information and updating search engine indices.
+### 2. Crawling
+**Challenges**: The task is to index web pages and browse the internet methodically.  
+**Google Relevance**: A vital component for obtaining online information and updating search engine indices.  
 **Algorithm**: The process of web crawling uses either depth-first search (DFS) or breadth-first search (BFS) to navigate web pages.
+
 <div style="text-align:center">
   <img src="img/WebCrawlerArchitecture.svg.png" alt="Crawling" />
 </div>
+
+**Reference**: "Web crawler," *Wikipedia*. [Online]. Available: https://en.wikipedia.org/wiki/Web_crawler. [Accessed: 04-Jul-2024].
 
 ### 3.Indexing
 **Challenge**: Efficiently store and retrieve large amounts of web data.
