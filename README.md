@@ -150,7 +150,10 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif" alt="Dijkstra's Algorithm Animation" />
 </div>
 
-**Code**: [Dijkstra's Algorithm](GraphAlgorithms/Dijkstra's algorithm.cpp)
+**Code**: [Dijkstra's Algorithm](GraphAlgorithms/Dijkstra's_algorithm.cpp)
+
+**Reference**: "Dijkstra's algorithm," *Wikipedia*. [Online]. Available: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm. [Accessed: 04-Jul-2024].
+
 
 ### Explanation:
 Edsger W. Dijkstra developed Dijkstra's method in 1956 to determine the shortest pathways between nodes in weighted graphs, like road networks. The algorithm can be stopped early to discover the shortest path to a certain destination. It begins at a given source node and finds the shortest path to every other node. Its original version operated in quadratic time and selects the shortest known paths using a min-priority queue.The algorithm is frequently used as a subroutine in other algorithms, such as Johnson's algorithm, and in network routing protocols (e.g., IS-IS, OSPF).
