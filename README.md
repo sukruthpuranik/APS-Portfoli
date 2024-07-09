@@ -173,7 +173,7 @@ Edsger W. Dijkstra developed Dijkstra's method in 1956 to determine the shortest
 It conducts a blind search, which can take a while. Because it is unable to handle negative edges, acyclic graphs may arise in which the shortest path may not always be found.
 
 **Reference**:  
-Testbook. "The Limitations of the Dijkstra Algorithm." Available: [https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.](https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.). [Accessed: Current Date].
+Testbook. "The Limitations of the Dijkstra Algorithm." Available: [https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.](https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.). [Accessed: 04-Jul-2024].
 
 ### Complexity:
 The time complexity of Dijkstra's Algorithm is typically O(V2) when using a simple array implementation or O((V + E) log V) with a priority queue, where V represents the number of vertices and E represents the number of edges in the graph.
