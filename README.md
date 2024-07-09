@@ -101,8 +101,8 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 9. "Trie," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Trie](https://en.wikipedia.org/wiki/Trie). [Accessed: 04-Jul-2024].
 10. "Suffix tree," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Suffix_tree](https://en.wikipedia.org/wiki/Suffix_tree). [Accessed: 04-Jul-2024].
 11. "Depth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Depth-first_search](https://en.wikipedia.org/wiki/Depth-first_search). [Accessed: 04-Jul-2024].
-12. "Breadth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Breadth-first_search](https://en.wikipedia.org/wiki/Breadth-first_search). Accessed: 04-Jul-2024.
-13. Wikipedia, "Disjoint-set data structure." Available: https://en.wikipedia.org/wiki/Disjoint-set_data_structure. Accessed: 04-Jul-2024.
+12. "Breadth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Breadth-first_search](https://en.wikipedia.org/wiki/Breadth-first_search). [Accessed: 04-Jul-2024].
+13. Testbook. "The Limitations of the Dijkstra Algorithm." Available: [https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.](https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.). [Accessed: 04-Jul-2024].
 
 <h2 class="styled-subheading">Business Cases</h2>
 
