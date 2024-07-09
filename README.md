@@ -108,6 +108,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 16. Interview Cake. "Trie Data Structure in Java." Available: [https://www.interviewcake.com/concept/java/trie](https://www.interviewcake.com/concept/java/trie). [Accessed: 04-Jul-2024].
 17. Medium. "Understanding Trie Data Structure." Available: [https://itsparesh.medium.com/understanding-trie-data-structure-24f9375cdbc3](https://itsparesh.medium.com/understanding-trie-data-structure-24f9375cdbc3). [Accessed: 04-Jul-2024].
 18. Naukri Code360. "Suffix Trees Implementation - Brute Force." Available: [https://www.naukri.com/code360/library/suffix-trees-implementation-brute-force](https://www.naukri.com/code360/library/suffix-trees-implementation-brute-force). [Accessed: 04-Jul-2024].
+19. GeeksforGeeks. "Applications and Disadvantages of Depth-First Search (DFS)." Available: [https://www.geeksforgeeks.org/applications-of-depth-first-search/#:~:text=Disadvantages%20of%20Depth%20First%20Search%3A,cutoff%20depth%20on%20the%20search.](https://www.geeksforgeeks.org/applications-of-depth-first-search/#:~:text=Disadvantages%20of%20Depth%20First%20Search%3A,cutoff%20depth%20on%20the%20search.). [Accessed: 04-Jul-2024].
 
 <h2 class="styled-subheading">Business Cases</h2>
 
@@ -296,6 +297,9 @@ The 19th-century French mathematician Charles Pierre Trémaux studied a variatio
 
 ### Limitations:
 Even in a limited graph, the primary drawback of Depth-First Search (DFS) is the possibility of endlessly examining the left-most path. In order to lessen this, a cutoff depth that ideally matches the solution depth might be applied; however, this number is frequently unknown in advance. A cutoff set too high could result in a large increase in execution time and possibly a less-than-ideal first solution, while a cutoff set too low could prevent DFS from finding a solution at all. Therefore, in the event that there are several solutions, DFS cannot ensure that it will locate the minimal solution.
+
+**Reference:**
+GeeksforGeeks. "Applications and Disadvantages of Depth-First Search (DFS)." Available: [https://www.geeksforgeeks.org/applications-of-depth-first-search/#:~:text=Disadvantages%20of%20Depth%20First%20Search%3A,cutoff%20depth%20on%20the%20search.](https://www.geeksforgeeks.org/applications-of-depth-first-search/#:~:text=Disadvantages%20of%20Depth%20First%20Search%3A,cutoff%20depth%20on%20the%20search.). [Accessed: 04-Jul-2024].
 
 ### Complexity:
 The time complexity of DFS is O(V + E), where V represents the number of vertices and E represents the number of edges in the graph.
