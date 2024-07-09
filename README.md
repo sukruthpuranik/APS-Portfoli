@@ -93,6 +93,11 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 - Smith, J. (2020). "The Role of Algorithms in Modern Technology." *IEEE Transactions on Computers*.
 - Doe, A. (2019). "Market Analysis of Algorithmic Applications." *Journal of Technology and Innovation*.
 - Encyclopaedia Britannica. (2023). "Google Inc."
+- "PageRank," *Wikipedia*. Available: https://en.wikipedia.org/wiki/PageRank. [Accessed: 04-Jul-2024].
+- "Dijkstra's algorithm," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm. [Accessed: 04-Jul-2024].
+- "Web crawler," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Web_crawler. [Accessed: 04-Jul-2024].
+- "Search engine indexing," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Search_engine_indexing. [Accessed: 04-Jul-2024].
+
   
 <h2 class="styled-subheading">Business Cases</h2>
 
