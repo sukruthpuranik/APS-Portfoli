@@ -101,8 +101,9 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 9. "Trie," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Trie](https://en.wikipedia.org/wiki/Trie). [Accessed: 04-Jul-2024].
 10. "Suffix tree," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Suffix_tree](https://en.wikipedia.org/wiki/Suffix_tree). [Accessed: 04-Jul-2024].
 11. "Depth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Depth-first_search](https://en.wikipedia.org/wiki/Depth-first_search). [Accessed: 04-Jul-2024].
-12. "Breadth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Breadth-first_search](https://en.wikipedia.org/wiki/Breadth-first_search). [Accessed: 04-Jul-2024].
-13. Testbook. "The Limitations of the Dijkstra Algorithm." Available: [https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.](https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.). [Accessed: 04-Jul-2024].
+12. "Breadth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Breadth-first_search](https://en.wikipedia.org/wiki/Breadth-first_search). [Accessed: 09-Jul-2024].
+13. GeeksforGeeks. "Time and Space Complexity of Dijkstra's Algorithm." Available: [https://www.geeksforgeeks.org/time-and-space-complexity-of-dijkstras-algorithm/](https://www.geeksforgeeks.org/time-and-space-complexity-of-dijkstras-algorithm/). [Accessed: 04-Jul-2024].
+14. Testbook. "The Limitations of the Dijkstra Algorithm." Available: [https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.](https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.). [Accessed: Current Date].
 
 <h2 class="styled-subheading">Business Cases</h2>
 
@@ -175,9 +176,14 @@ It conducts a blind search, which can take a while. Because it is unable to hand
 **Reference**:  
 Testbook. "The Limitations of the Dijkstra Algorithm." Available: [https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.](https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.). [Accessed: 04-Jul-2024].
 
-### Complexity:
-The time complexity of Dijkstra's Algorithm is typically O(V2) when using a simple array implementation or O((V + E) log V) with a priority queue, where V represents the number of vertices and E represents the number of edges in the graph.
+### Complexity
+
+The time complexity of Dijkstra's Algorithm is typically O(V^2) when using a simple array implementation or O((V + E) log V) with a priority queue, where V represents the number of vertices and E represents the number of edges in the graph.  
 The auxiliary space complexity of Dijkstra's algorithm is typically O(V) to O(E + V), where V is the number of vertices and E is the number of edges in the graph, depending on the implementation and data structures used.
+
+**Reference**:  
+GeeksforGeeks. "Time and Space Complexity of Dijkstra's Algorithm." Available: [https://www.geeksforgeeks.org/time-and-space-complexity-of-dijkstras-algorithm/](https://www.geeksforgeeks.org/time-and-space-complexity-of-dijkstras-algorithm/). [Accessed: 04-Jul-2024].
+
 
 ### 5. A* Search Algorithm
 **Challenge**: Find the shortest path between two points on a grid.  
