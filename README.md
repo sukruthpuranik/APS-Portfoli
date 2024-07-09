@@ -110,6 +110,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 18. Naukri Code360. "Suffix Trees Implementation - Brute Force." Available: [https://www.naukri.com/code360/library/suffix-trees-implementation-brute-force](https://www.naukri.com/code360/library/suffix-trees-implementation-brute-force). [Accessed: 04-Jul-2024].
 19. GeeksforGeeks. "Applications and Disadvantages of Depth-First Search (DFS)." Available: [https://www.geeksforgeeks.org/applications-of-depth-first-search/#:~:text=Disadvantages%20of%20Depth%20First%20Search%3A,cutoff%20depth%20on%20the%20search.](https://www.geeksforgeeks.org/applications-of-depth-first-search/#:~:text=Disadvantages%20of%20Depth%20First%20Search%3A,cutoff%20depth%20on%20the%20search.). [Accessed: 04-Jul-2024].
 20. BYJU'S. "Breadth-First Search Algorithm Notes." Available: [https://byjus.com/gate/breadth-first-search-algorithm-notes/](https://byjus.com/gate/breadth-first-search-algorithm-notes/). [Accessed: 04-Jul-2024].
+21. GeeksforGeeks. "Applications, Advantages, and Disadvantages of Binary Tree." Available: [https://www.geeksforgeeks.org/applications-advantages-and-disadvantages-of-binary-tree/](https://www.geeksforgeeks.org/applications-advantages-and-disadvantages-of-binary-tree/). [Accessed: 04-Jul-2024].
 
 <h2 class="styled-subheading">Business Cases</h2>
 
@@ -354,6 +355,9 @@ A binary tree is a type of data structure used in computer science in which each
 ### Complexity:
 In general, the time complexity is O(h) where h is the height of BST. Insertion: For inserting element 0, it must be inserted as the left child of 1. Therefore, we need to traverse all elements (in order 3, 2, 1) to insert 0 which has the worst-case complexity of O(n). In general, the time complexity is O(h).
 In the average case (and best case) - assuming a tree that's fairly well balanced, then the height would be about log₂ N . Hence, space complexity would be O(log₂ N) or simply O(lg N) In a worst case scenario, where the tree is just a sorted linked list branching right with incrementing values, then O(N) as worst case.
+
+**Reference:**
+BYJU'S. "Breadth-First Search Algorithm Notes." Available: [https://byjus.com/gate/breadth-first-search-algorithm-notes/](https://byjus.com/gate/breadth-first-search-algorithm-notes/). [Accessed: 04-Jul-2024].
 
 ### 11. Burrows-Wheeler Transform (BWT)
 **Challenge**: Transform data to improve compression efficiency.  
