@@ -93,14 +93,15 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 - Smith, J. (2020). "The Role of Algorithms in Modern Technology." *IEEE Transactions on Computers*.
 - Doe, A. (2019). "Market Analysis of Algorithmic Applications." *Journal of Technology and Innovation*.
 - Encyclopaedia Britannica. (2023). "Google Inc."
-- "PageRank," *Wikipedia*. Available: https://en.wikipedia.org/wiki/PageRank. [Accessed: 04-Jul-2024].
-- "Dijkstra's algorithm," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm. [Accessed: 04-Jul-2024].
-- "Web crawler," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Web_crawler. [Accessed: 04-Jul-2024].
-- "Search engine indexing," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Search_engine_indexing. [Accessed: 04-Jul-2024].
-- "A* search algorithm," *Wikipedia*. Available: https://en.wikipedia.org/wiki/A*_search_algorithm. [Accessed: 04-Jul-2024].
-- "Trie," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Trie. [Accessed: 04-Jul-2024].
-- "Suffix tree," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Suffix_tree. [Accessed: 04-Jul-2024].
-- "Depth-first search," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Depth-first_search. [Accessed: 04-Jul-2024].
+- "PageRank," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/PageRank](https://en.wikipedia.org/wiki/PageRank). [Accessed: 04-Jul-2024].
+- "Dijkstra's algorithm," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm). [Accessed: 04-Jul-2024].
+- "Web crawler," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Web_crawler](https://en.wikipedia.org/wiki/Web_crawler). [Accessed: 04-Jul-2024].
+- "Search engine indexing," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Search_engine_indexing](https://en.wikipedia.org/wiki/Search_engine_indexing). [Accessed: 04-Jul-2024].
+- "A* search algorithm," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/A*_search_algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm). [Accessed: 04-Jul-2024].
+- "Trie," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Trie](https://en.wikipedia.org/wiki/Trie). [Accessed: 04-Jul-2024].
+- "Suffix tree," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Suffix_tree](https://en.wikipedia.org/wiki/Suffix_tree). [Accessed: 04-Jul-2024].
+- "Depth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Depth-first_search](https://en.wikipedia.org/wiki/Depth-first_search). [Accessed: 04-Jul-2024].
+- "Breadth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Breadth-first_search](https://en.wikipedia.org/wiki/Breadth-first_search). [Accessed: 09-Jul-2024].
 
 <h2 class="styled-subheading">Business Cases</h2>
 
@@ -275,11 +276,15 @@ The time complexity of DFS is O(V + E), where V represents the number of vertice
 The space complexity of DFS is O(V), where V represents the number of vertices in the graph.
 
 ### 9. Breadth-First Search (BFS)
+
 **Challenge**: Traverse or search through graph or tree data structures level by level.  
 **Google Relevance**: Vital for web crawling, shortest path finding in unweighted graphs, and peer-to-peer networking.  
 **Algorithm**: Breadth-First Search (BFS).
 
 **Code**: [Breadth first search](GraphAlgorithms/bfs.cpp)
+
+**Reference**: ["Breadth-first search," *Wikipedia*](https://en.wikipedia.org/wiki/Breadth-first_search). Accessed: 09-Jul-2024.
+
 ### Explanation:
 A tree and graph traversal technique called Breadth-First Search (BFS) uses additional memory in the form of a queue to track child nodes as it searches every node at the current depth before going on to the next level. It is useful for issues like chess endgames since it promises to discover a solution if one exists. While BFS uses more memory, it systematically explores all possibilities, unlike Depth-First Search (DFS), which might become stranded in infinite branches. BFS eliminates the need for repetitive searches in theoretical analysis and works with both directed and undirected graphs. BFS was first created by Konrad Zuse in 1945 and then reimagined by Edward F. Moore in 1959. Since then, it has been used for a variety of purposes, including wire routing, which C. Y. Lee developed in 1961.
 
