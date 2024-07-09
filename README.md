@@ -212,6 +212,9 @@ Furthermore, A* might have trouble with some kinds of graphs or search spaces th
 The time complexity of A* depends on the heuristic. In the worst case of an unbounded search space, the number of nodes expanded is exponential in the depth of the solution (the shortest path) d: O(bd), where b is the branching factor (the average number of successors per state).
 The space complexity of standard A* is always O(b^d), since we need to track every node in the graph at all times, even ones that we've never visited and are never going to.
 
+**Reference:**  
+GeeksforGeeks. "A* Search Algorithm." Available: [https://www.geeksforgeeks.org/a-search-algorithm/](https://www.geeksforgeeks.org/a-search-algorithm/). [Accessed: 04-Jul-2024].
+
 ### 6. Trie Data Structure
 **Challenge**: Efficiently store and retrieve keys in a dataset of strings.  
 **Google Relevance**: Essential for autocomplete features, search engine indexing, and IP routing.  
