@@ -97,6 +97,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 - "Dijkstra's algorithm," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm. [Accessed: 04-Jul-2024].
 - "Web crawler," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Web_crawler. [Accessed: 04-Jul-2024].
 - "Search engine indexing," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Search_engine_indexing. [Accessed: 04-Jul-2024].
+- "A* search algorithm," *Wikipedia*. Available: https://en.wikipedia.org/wiki/A*_search_algorithm. [Accessed: 04-Jul-2024].
 
   
 <h2 class="styled-subheading">Business Cases</h2>
@@ -181,6 +182,9 @@ The auxiliary space complexity of Dijkstra's algorithm is typically O(V) to O(E 
 </div>
 
 **Code**: [A* Search Algorithm](AStarSearch/a_star_search.cpp)
+
+**Reference**: "A* search algorithm," *Wikipedia*. Available: https://en.wikipedia.org/wiki/A*_search_algorithm. [Accessed: 04-Jul-2024].
+
 
 ### Explanation:
 The graph traversal and pathfinding algorithm A* (A-star) is renowned for its efficiency, completeness, and optimality. Using heuristics, it discovers the shortest path between a source node and a goal node in a weighted graph, outperforming Dijkstra's algorithm in the process. Although pre-processing algorithms and memory-bounded techniques can surpass A*, it is still effective in many cases. A*, which was created in 1968 by Peter Hart, Nils Nilsson, and Bertram Raphael, differs from Dijkstra's algorithm in that it aims to achieve a certain objective instead of creating a shortest-path tree to every node.
