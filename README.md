@@ -98,8 +98,8 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 - "Web crawler," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Web_crawler. [Accessed: 04-Jul-2024].
 - "Search engine indexing," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Search_engine_indexing. [Accessed: 04-Jul-2024].
 - "A* search algorithm," *Wikipedia*. Available: https://en.wikipedia.org/wiki/A*_search_algorithm. [Accessed: 04-Jul-2024].
+- "Trie," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Trie. [Accessed: 04-Jul-2024].
 
-  
 <h2 class="styled-subheading">Business Cases</h2>
 
 ### 1. PageRank Algorithm
@@ -209,6 +209,9 @@ The space complexity of standard A* is always O(b^d), since we need to track eve
 </div>
 
 **Code**: [Trie Data Structure Algorithm](DataStructures/trie.cpp)
+
+**Reference**: "Trie," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Trie. [Accessed: 04-Jul-2024].
+
 
 ### Explanation:
 A trie is a k-ary search tree used to find certain keys inside a collection, usually strings. It is sometimes referred to as a digital tree or prefix tree. In contrast to binary search trees, attempts use the positions of the nodes to define the keys and distribute the value of each key throughout the data structure. Every child of a node has a root that represents an empty string, and all children share a common prefix linked to the parent node. Radix trees can be used to optimise attempts, and different ordered lists, including binary or integer data, can be used to key the tries. The huge space needs of naive trie structures are addressed by specialised implementations such as compressed tries.
