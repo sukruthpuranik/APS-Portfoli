@@ -90,19 +90,19 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 - Illustrate the importance of these algorithms in real Google applications.
 
 <h3 class="styled-chotaheading">References</h3>
-- Smith, J. (2020). "The Role of Algorithms in Modern Technology." *IEEE Transactions on Computers*.
-- Doe, A. (2019). "Market Analysis of Algorithmic Applications." *Journal of Technology and Innovation*.
-- Encyclopaedia Britannica. (2023). "Google Inc."
-- "PageRank," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/PageRank](https://en.wikipedia.org/wiki/PageRank). [Accessed: 04-Jul-2024].
-- "Dijkstra's algorithm," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm). [Accessed: 04-Jul-2024].
-- "Web crawler," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Web_crawler](https://en.wikipedia.org/wiki/Web_crawler). [Accessed: 04-Jul-2024].
-- "Search engine indexing," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Search_engine_indexing](https://en.wikipedia.org/wiki/Search_engine_indexing). [Accessed: 04-Jul-2024].
-- "A* search algorithm," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/A*_search_algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm). [Accessed: 04-Jul-2024].
-- "Trie," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Trie](https://en.wikipedia.org/wiki/Trie). [Accessed: 04-Jul-2024].
-- "Suffix tree," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Suffix_tree](https://en.wikipedia.org/wiki/Suffix_tree). [Accessed: 04-Jul-2024].
-- "Depth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Depth-first_search](https://en.wikipedia.org/wiki/Depth-first_search). [Accessed: 04-Jul-2024].
-- "Breadth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Breadth-first_search](https://en.wikipedia.org/wiki/Breadth-first_search). [Accessed: 09-Jul-2024].
-- "Binary tree," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Binary_tree](https://en.wikipedia.org/wiki/Binary_tree). [Accessed: Current Date].
+1. J. Smith, "The Role of Algorithms in Modern Technology," *IEEE Transactions on Computers*, 2020.
+2. A. Doe, "Market Analysis of Algorithmic Applications," *Journal of Technology and Innovation*, 2019.
+3. Encyclopaedia Britannica, "Google Inc.", 2023.
+4. "PageRank," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/PageRank](https://en.wikipedia.org/wiki/PageRank). [Accessed: 04-Jul-2024].
+5. "Dijkstra's algorithm," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm). [Accessed: 04-Jul-2024].
+6. "Web crawler," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Web_crawler](https://en.wikipedia.org/wiki/Web_crawler). [Accessed: 04-Jul-2024].
+7. "Search engine indexing," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Search_engine_indexing](https://en.wikipedia.org/wiki/Search_engine_indexing). [Accessed: 04-Jul-2024].
+8. "A* search algorithm," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/A*_search_algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm). [Accessed: 04-Jul-2024].
+9. "Trie," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Trie](https://en.wikipedia.org/wiki/Trie). [Accessed: 04-Jul-2024].
+10. "Suffix tree," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Suffix_tree](https://en.wikipedia.org/wiki/Suffix_tree). [Accessed: 04-Jul-2024].
+11. "Depth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Depth-first_search](https://en.wikipedia.org/wiki/Depth-first_search). [Accessed: 04-Jul-2024].
+12. "Breadth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Breadth-first_search](https://en.wikipedia.org/wiki/Breadth-first_search). [Accessed: 09-Jul-2024].
+13. Wikipedia, "Disjoint-set data structure." Available: https://en.wikipedia.org/wiki/Disjoint-set_data_structure. [Accessed: Current Date].
 
 <h2 class="styled-subheading">Business Cases</h2>
 
@@ -326,6 +326,9 @@ In the average case (and best case) - assuming a tree that's fairly well balance
 **Challenge**: Transform data to improve compression efficiency.  
 **Google Relevance**: Utilized in data compression algorithms and search functionalities.  
 **Algorithm**: Burrows-Wheeler Transform (BWT).
+
+**Reference**: ["Burrows-Wheeler transform," *Wikipedia*](https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform). Accessed: [Current Date].
+
 **Code**: [BWT](BWT/bwt.cpp)
 <div style="text-align:center">
   <img src="img/0_-Ufmqo3hFeaJMWUr.png" alt="BWT" />
@@ -335,9 +338,13 @@ In the average case (and best case) - assuming a tree that's fairly well balance
 By rearranging a character string into runs of related characters, the Burrows–Wheeler transform (BWT), often called block-sorting compression, improves compressibility using methods including move-to-front transform and run-length encoding. The original string can be restored by just knowing the position of the first original character in this reversible alteration. Using merely computational cost, BWT enhances the effectiveness of text compression algorithms and is a component of data compression techniques such as bzip2. The BWT was developed at DEC Systems Research Centre in 1994 by Michael Burrows and David Wheeler. It is based on Wheeler's previous unpublished work from 1983 and may be effectively implemented for linear time complexity with a suffix array.
 
 ### 12. Union-Find Algorithm
+
 **Challenge**: Efficiently manage and query connected components in a network.  
 **Google Relevance**: Essential for managing large-scale networks like social networks and ensuring connectivity in distributed systems.  
-**Algorithm**: Union-Find with Path Compression and Union by Rank.  
+**Algorithm**: Union-Find with Path Compression and Union by Rank.
+
+**Reference**:  
+Wikipedia. "Disjoint-set data structure." Available: https://en.wikipedia.org/wiki/Disjoint-set_data_structure. [Accessed: Current Date].
 
 **Code**: [Union Find](DataStructures/union_find.cpp)
 
