@@ -239,12 +239,15 @@ Space-Inefficient in most cases. When compared to storing strings in a set, trie
 A string's ASCII characters are each one byte. A trie node's link is a pointer to an address, which is eight bytes on a 64-bit system. Therefore, saving money by storing fewer characters is frequently outweighed by the overhead of connecting nodes.
 Not Conventional. The majority of languages lack an integrated trie implementation. It will be up to you to put one into practice.
 
+**Reference:**
+Interview Cake. "Trie Data Structure in Java." Available: [https://www.interviewcake.com/concept/java/trie](https://www.interviewcake.com/concept/java/trie). [Accessed: 04-Jul-2024].
+
 ### Complexity:
 The time complexity for building a Trie data structure is O(N * avgL), where 'N' is the number of strings we want to insert in Trie and 'avgL' is the average length of 'N' strings.
 The space complexity of the trie depends on the number of nodes present in the trie. A trie with N nodes will need O(N*k) space due to the pointers in each node, where k is the total number of unique characters in the alphabet.
 
 **Reference:**
-Interview Cake. "Trie Data Structure in Java." Available: [https://www.interviewcake.com/concept/java/trie](https://www.interviewcake.com/concept/java/trie). [Accessed: 04-Jul-2024].
+Medium. "Understanding Trie Data Structure." Available: [https://itsparesh.medium.com/understanding-trie-data-structure-24f9375cdbc3](https://itsparesh.medium.com/understanding-trie-data-structure-24f9375cdbc3). [Accessed: 04-Jul-2024].
 
 ### 7. Suffix Tree
 **Challenge**: Efficiently index all suffixes of a given text to enable fast substring searches and other string-related operations.  
