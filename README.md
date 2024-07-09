@@ -104,6 +104,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 12. "Breadth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Breadth-first_search](https://en.wikipedia.org/wiki/Breadth-first_search). [Accessed: 09-Jul-2024].
 13. GeeksforGeeks. "Time and Space Complexity of Dijkstra's Algorithm." Available: [https://www.geeksforgeeks.org/time-and-space-complexity-of-dijkstras-algorithm/](https://www.geeksforgeeks.org/time-and-space-complexity-of-dijkstras-algorithm/). [Accessed: 04-Jul-2024].
 14. Testbook. "The Limitations of the Dijkstra Algorithm." Available: [https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.](https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.). [Accessed: Current Date].
+15. GeeksforGeeks. "A* Search Algorithm." Available: [https://www.geeksforgeeks.org/a-search-algorithm/](https://www.geeksforgeeks.org/a-search-algorithm/). [Accessed: 04-Jul-2024].
 
 <h2 class="styled-subheading">Business Cases</h2>
 
