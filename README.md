@@ -126,9 +126,9 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 
 **Reference**: "Web crawler," *Wikipedia*. [Online]. Available: https://en.wikipedia.org/wiki/Web_crawler. [Accessed: 04-Jul-2024].
 
-### 3.Indexing
-**Challenge**: Efficiently store and retrieve large amounts of web data.
-**Google Relevance**: Core to Google's ability to deliver fast and relevant search results.
+### 3. Indexing
+**Challenge**: Efficiently store and retrieve large amounts of web data.  
+**Google Relevance**: Core to Google's ability to deliver fast and relevant search results.  
 **Algorithm**: Inverted Indexing, a data structure that maps content to its location in a database.
 
 **Suffix Tree**: By storing word or document suffixes, suffix trees effectively index text, allowing for quick substring searches and pattern matching within indexed information.
@@ -138,6 +138,8 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 **Algorithm for Burrows-Wheeler Transform (BWT)**: BWT facilitates data compression and, by optimising text representation for effective retrieval techniques like suffix arrays, may help indexing need less storage.
 
 **Binary Trees**: Essential for preserving effective lookup structures during search engine indexing procedures, binary trees arrange indexed data for quick searching, insertion, and deletion operations.
+
+**Reference**: "Search engine indexing," *Wikipedia*. [Online]. Available: https://en.wikipedia.org/wiki/Search_engine_indexing. [Accessed: 04-Jul-2024].
 
 ### 4. Dijkstra's Algorithm
 **Challenge**: Find the shortest path in a graph with non-negative edge weights.  
