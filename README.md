@@ -102,6 +102,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 - "Suffix tree," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Suffix_tree](https://en.wikipedia.org/wiki/Suffix_tree). [Accessed: 04-Jul-2024].
 - "Depth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Depth-first_search](https://en.wikipedia.org/wiki/Depth-first_search). [Accessed: 04-Jul-2024].
 - "Breadth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Breadth-first_search](https://en.wikipedia.org/wiki/Breadth-first_search). [Accessed: 09-Jul-2024].
+- "Binary tree," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Binary_tree](https://en.wikipedia.org/wiki/Binary_tree). [Accessed: Current Date].
 
 <h2 class="styled-subheading">Business Cases</h2>
 
@@ -301,6 +302,8 @@ The time complexity of the BFS algorithm is represented in the form of O(V + E),
 **Google Relevance**: Used in database indexing, memory management, and maintaining a sorted sequence of data.  
 **Algorithm**: Binary Tree.  
 **Description**: A binary tree is a data structure in which each node has at most two children, referred to as the left child and the right child. It is used in various applications like binary search trees and heaps.
+
+**Reference**: ["Binary tree," *Wikipedia*](https://en.wikipedia.org/wiki/Binary_tree). Accessed: [Current Date].
 
 **Code**: [Binary tree](GraphAlgorithms/bt.cpp)
 <div style="text-align:center">
