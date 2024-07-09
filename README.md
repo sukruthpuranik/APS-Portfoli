@@ -99,6 +99,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 - "Search engine indexing," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Search_engine_indexing. [Accessed: 04-Jul-2024].
 - "A* search algorithm," *Wikipedia*. Available: https://en.wikipedia.org/wiki/A*_search_algorithm. [Accessed: 04-Jul-2024].
 - "Trie," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Trie. [Accessed: 04-Jul-2024].
+- "Suffix tree," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Suffix_tree. [Accessed: 04-Jul-2024].
 
 <h2 class="styled-subheading">Business Cases</h2>
 
@@ -226,12 +227,18 @@ The time complexity for building a Trie data structure is O(N * avgL), where 'N'
 The space complexity of the trie depends on the number of nodes present in the trie. A trie with N nodes will need O(N*k) space due to the pointers in each node, where k is the total number of unique characters in the alphabet.
 
 ### 7. Suffix Tree
-**Challenge**: Efficiently indexes all suffixes of a given text to enable fast substring searches and other string-related operations. 
-**Google Relevance**: Crucial for text indexing,detecting repeated substrings in search engines.  
+**Challenge**: Efficiently index all suffixes of a given text to enable fast substring searches and other string-related operations.  
+**Google Relevance**: Crucial for text indexing, detecting repeated substrings in search engines.  
 **Algorithm**: Suffix Tree.
+
 <div style="text-align:center">
   <img src="img/Suffix_tree_BANANA.svg.png" alt="Suffix Tree" />
 </div>
+
+**Code**: [Suffix Tree Algorithm](DataStructures/suffix_tree.cpp)
+
+**Reference**: "Suffix tree," *Wikipedia*. Available: https://en.wikipedia.org/wiki/Suffix_tree. [Accessed: 04-Jul-2024].
+
 
 ### Explanation:
 A compressed trie that holds all of a text's suffixes as keys and their positions as values is called a suffix tree, sometimes known as a PAT tree. For a given string \( S \), the construction of a suffix tree requires linear time and space in relation to the length of \( S \). Finding approximation matches, matching regular expression patterns, and discovering substrings may all be done quickly with the help of suffix trees. They also give a solution to the longest common substring problem in linear time. But suffix trees take quite a lot more space in storage than the string itself does.
