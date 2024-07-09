@@ -107,6 +107,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 15. GeeksforGeeks. "A* Search Algorithm." Available: [https://www.geeksforgeeks.org/a-search-algorithm/](https://www.geeksforgeeks.org/a-search-algorithm/). [Accessed: 04-Jul-2024].
 16. Interview Cake. "Trie Data Structure in Java." Available: [https://www.interviewcake.com/concept/java/trie](https://www.interviewcake.com/concept/java/trie). [Accessed: 04-Jul-2024].
 17. Medium. "Understanding Trie Data Structure." Available: [https://itsparesh.medium.com/understanding-trie-data-structure-24f9375cdbc3](https://itsparesh.medium.com/understanding-trie-data-structure-24f9375cdbc3). [Accessed: 04-Jul-2024].
+18. Naukri Code360. "Suffix Trees Implementation - Brute Force." Available: [https://www.naukri.com/code360/library/suffix-trees-implementation-brute-force](https://www.naukri.com/code360/library/suffix-trees-implementation-brute-force). [Accessed: 04-Jul-2024].
 
 <h2 class="styled-subheading">Business Cases</h2>
 
@@ -270,6 +271,9 @@ A compressed trie that holds all of a text's suffixes as keys and their position
 ### Complexity:
 Suffix links reduce the time of processing each phase to O(N), as the number of nodes present in the suffix tree is of order N. Thus the overall time complexity of building a suffix tree is reduced to O(N²).
 The space complexity for this algorithm is O(M2).
+
+**Reference:**
+Naukri Code360. "Suffix Trees Implementation - Brute Force." Available: [https://www.naukri.com/code360/library/suffix-trees-implementation-brute-force](https://www.naukri.com/code360/library/suffix-trees-implementation-brute-force). [Accessed: 04-Jul-2024].
 
 ### 8. Depth-First Search (DFS)
 **Challenge**: Traverse or search through graph or tree data structures.  
