@@ -101,8 +101,8 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 9. "Trie," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Trie](https://en.wikipedia.org/wiki/Trie). [Accessed: 04-Jul-2024].
 10. "Suffix tree," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Suffix_tree](https://en.wikipedia.org/wiki/Suffix_tree). [Accessed: 04-Jul-2024].
 11. "Depth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Depth-first_search](https://en.wikipedia.org/wiki/Depth-first_search). [Accessed: 04-Jul-2024].
-12. "Breadth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Breadth-first_search](https://en.wikipedia.org/wiki/Breadth-first_search). [Accessed: 09-Jul-2024].
-13. Wikipedia, "Disjoint-set data structure." Available: https://en.wikipedia.org/wiki/Disjoint-set_data_structure. [Accessed: Current Date].
+12. "Breadth-first search," *Wikipedia*. Available: [https://en.wikipedia.org/wiki/Breadth-first_search](https://en.wikipedia.org/wiki/Breadth-first_search). Accessed: 04-Jul-2024.
+13. Wikipedia, "Disjoint-set data structure." Available: https://en.wikipedia.org/wiki/Disjoint-set_data_structure. Accessed: 04-Jul-2024.
 
 <h2 class="styled-subheading">Business Cases</h2>
 
@@ -168,9 +168,12 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 ### Explanation:
 Edsger W. Dijkstra developed Dijkstra's method in 1956 to determine the shortest pathways between nodes in weighted graphs, like road networks. The algorithm can be stopped early to discover the shortest path to a certain destination. It begins at a given source node and finds the shortest path to every other node. Its original version operated in quadratic time and selects the shortest known paths using a min-priority queue.The algorithm is frequently used as a subroutine in other algorithms, such as Johnson's algorithm, and in network routing protocols (e.g., IS-IS, OSPF).
 
-### Limitations:
-It conducts a blind search, which can take a while.
-Because it is unable to handle negative edges, acyclic graphs may arise in which the shortest path may not always be found.
+### Limitations
+
+It conducts a blind search, which can take a while. Because it is unable to handle negative edges, acyclic graphs may arise in which the shortest path may not always be found.
+
+**Reference**:  
+Testbook. "The Limitations of the Dijkstra Algorithm." Available: [https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.](https://testbook.com/gate/dijkstra-algorithm-notes#:~:text=to%20establish%20connections.). [Accessed: Current Date].
 
 ### Complexity:
 The time complexity of Dijkstra's Algorithm is typically O(V2) when using a simple array implementation or O((V + E) log V) with a priority queue, where V represents the number of vertices and E represents the number of edges in the graph.
@@ -284,7 +287,7 @@ The space complexity of DFS is O(V), where V represents the number of vertices i
 
 **Code**: [Breadth first search](GraphAlgorithms/bfs.cpp)
 
-**Reference**: ["Breadth-first search," *Wikipedia*](https://en.wikipedia.org/wiki/Breadth-first_search). Accessed: 09-Jul-2024.
+**Reference**: ["Breadth-first search," *Wikipedia*](https://en.wikipedia.org/wiki/Breadth-first_search). Accessed: 04-Jul-2024.
 
 ### Explanation:
 A tree and graph traversal technique called Breadth-First Search (BFS) uses additional memory in the form of a queue to track child nodes as it searches every node at the current depth before going on to the next level. It is useful for issues like chess endgames since it promises to discover a solution if one exists. While BFS uses more memory, it systematically explores all possibilities, unlike Depth-First Search (DFS), which might become stranded in infinite branches. BFS eliminates the need for repetitive searches in theoretical analysis and works with both directed and undirected graphs. BFS was first created by Konrad Zuse in 1945 and then reimagined by Edward F. Moore in 1959. Since then, it has been used for a variety of purposes, including wire routing, which C. Y. Lee developed in 1961.
@@ -303,7 +306,7 @@ The time complexity of the BFS algorithm is represented in the form of O(V + E),
 **Algorithm**: Binary Tree.  
 **Description**: A binary tree is a data structure in which each node has at most two children, referred to as the left child and the right child. It is used in various applications like binary search trees and heaps.
 
-**Reference**: ["Binary tree," *Wikipedia*](https://en.wikipedia.org/wiki/Binary_tree). Accessed: [Current Date].
+**Reference**: ["Binary tree," *Wikipedia*](https://en.wikipedia.org/wiki/Binary_tree). Accessed: 04-Jul-2024.
 
 **Code**: [Binary tree](GraphAlgorithms/bt.cpp)
 <div style="text-align:center">
@@ -327,7 +330,7 @@ In the average case (and best case) - assuming a tree that's fairly well balance
 **Google Relevance**: Utilized in data compression algorithms and search functionalities.  
 **Algorithm**: Burrows-Wheeler Transform (BWT).
 
-**Reference**: ["Burrows-Wheeler transform," *Wikipedia*](https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform). Accessed: [Current Date].
+**Reference**: ["Burrows-Wheeler transform," *Wikipedia*](https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform). Accessed: 04-Jul-2024.
 
 **Code**: [BWT](BWT/bwt.cpp)
 <div style="text-align:center">
@@ -344,7 +347,7 @@ By rearranging a character string into runs of related characters, the Burrowsâ€
 **Algorithm**: Union-Find with Path Compression and Union by Rank.
 
 **Reference**:  
-Wikipedia. "Disjoint-set data structure." Available: https://en.wikipedia.org/wiki/Disjoint-set_data_structure. [Accessed: Current Date].
+Wikipedia. "Disjoint-set data structure." Available: https://en.wikipedia.org/wiki/Disjoint-set_data_structure. Accessed: 04-Jul-2024.
 
 **Code**: [Union Find](DataStructures/union_find.cpp)
 
