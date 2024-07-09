@@ -109,6 +109,7 @@ Google, now part of Alphabet Inc. subsidiary, remains a dominant force in the gl
 17. Medium. "Understanding Trie Data Structure." Available: [https://itsparesh.medium.com/understanding-trie-data-structure-24f9375cdbc3](https://itsparesh.medium.com/understanding-trie-data-structure-24f9375cdbc3). [Accessed: 04-Jul-2024].
 18. Naukri Code360. "Suffix Trees Implementation - Brute Force." Available: [https://www.naukri.com/code360/library/suffix-trees-implementation-brute-force](https://www.naukri.com/code360/library/suffix-trees-implementation-brute-force). [Accessed: 04-Jul-2024].
 19. GeeksforGeeks. "Applications and Disadvantages of Depth-First Search (DFS)." Available: [https://www.geeksforgeeks.org/applications-of-depth-first-search/#:~:text=Disadvantages%20of%20Depth%20First%20Search%3A,cutoff%20depth%20on%20the%20search.](https://www.geeksforgeeks.org/applications-of-depth-first-search/#:~:text=Disadvantages%20of%20Depth%20First%20Search%3A,cutoff%20depth%20on%20the%20search.). [Accessed: 04-Jul-2024].
+20. BYJU'S. "Breadth-First Search Algorithm Notes." Available: [https://byjus.com/gate/breadth-first-search-algorithm-notes/](https://byjus.com/gate/breadth-first-search-algorithm-notes/). [Accessed: 04-Jul-2024].
 
 <h2 class="styled-subheading">Business Cases</h2>
 
@@ -325,6 +326,9 @@ Because it doesn't look down every avenue in the search tree, it occasionally fi
 
 ### Complexity:
 The time complexity of the BFS algorithm is represented in the form of O(V + E), where V is the number of nodes and E is the number of edges. The space complexity of the algorithm is O(V).
+
+**Reference:**
+BYJU'S. "Breadth-First Search Algorithm Notes." Available: [https://byjus.com/gate/breadth-first-search-algorithm-notes/](https://byjus.com/gate/breadth-first-search-algorithm-notes/). [Accessed: 04-Jul-2024].
 
 ### 10. Binary Tree
 **Challenge**: Efficiently store and organize hierarchical data structures.  
